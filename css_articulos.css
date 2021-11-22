@@ -1,19 +1,19 @@
-@font-face {src: url("../fonts/Nunito/Nunito-Regular.ttf");
+@font-face {src: url("Nunito-Regular.ttf");
     font-family: Nunito-Regular;}
 
-@font-face {src: url("../fonts/Nunito/Nunito-ExtraLight.ttf");
+@font-face {src: url("Nunito-ExtraLight.ttf");
     font-family: Nunito-ExtraLight;}
 
-@font-face {src: url("../fonts/Nunito/Nunito-Bold.ttf");
+@font-face {src: url("Nunito-Bold.ttf");
     font-family: Nunito-Bold;}
 
-@font-face {src: url("../fonts/Nunito/Nunito-SemiBold.ttf");
+@font-face {src: url("Nunito-SemiBold.ttf");
     font-family: Nunito-SemiBold;}
 
-@font-face {src: url("../fonts/Nunito/Nunito-Black.ttf");
+@font-face {src: url("Nunito/Nunito-Black.ttf");
     font-family: Nunito-Black;}
 
-@font-face {src: url("../fonts/Nunito/Nunito-Light.ttf");
+@font-face {src: url("Nunito-Light.ttf");
         font-family: Nunito-Light;} 
 
     * { margin: 0;
