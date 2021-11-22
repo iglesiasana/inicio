@@ -74,6 +74,7 @@
         font-family: Nunito-Regular;}
     
     section { max-width: 600px;
+        display: flex;
         margin: auto;
         text-align: justify;
         justify-content: center;
