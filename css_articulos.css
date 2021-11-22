@@ -75,6 +75,7 @@
     
     section { max-width: 600px;
         display: flex;
+        flex-wrap: wrap;
         margin: auto;
         text-align: justify;
         justify-content: center;
