@@ -65,24 +65,24 @@ h2 {font-size: 2.5rem;
     text-align: center;}
 
 p { color: #fff;
-    margin: 0 auto 2rem auto;
+    margin: 0 auto 1.8rem auto;
     font-family: Nunito-Light;
-    font-size: 1.7rem;}
+    font-size: 1.5rem;}
 
-b { margin: 0 0 2rem 0;
+b { margin: 0 0 1.8rem 0;
     color: #ddd;
     font-family: Nunito-Bold;
-    font-size: 1.7rem;}
+    font-size: 1.5rem;}
 
-em {margin: 0 0 2rem 0;
+em {margin: 0 0 1.8rem 0;
     text-decoration: none;
     font-style: normal;
     font-family: Nunito-Black;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     color: #00eeff;}
 
 ul {margin: 0 auto 2.5rem 3rem;
-        line-height: 2rem;
+        line-height: 1.8rem;
         font-family: Nunito-Regular;}
     
    
