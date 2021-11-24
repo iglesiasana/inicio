@@ -27,7 +27,7 @@ body {
     background:#222;
     padding: 1.5rem;}
 
-section { max-width: 600px;
+section { max-width: 500px;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -65,23 +65,34 @@ h2 {font-size: 2.5rem;
     text-align: center;}
 
 p { color: #fff;
-    margin: 0 auto 2rem auto;
+    margin: 0 auto 2.5rem auto;
     font-family: Nunito-Light;
-    font-size: 1.3rem;}
+    font-size: 1.75rem;
+    line-height: 2.3rem;}
 
-b { margin: 0 0 2rem 0;
+b { margin: 0 0 2.5rem 0;
     color: #ddd;
     font-family: Nunito-Bold;
-    font-size: 1.3rem;}
+    font-size: 1.75rem;
+    line-height: 2.3rem;}
 
-em {margin: 0 0 2rem 0;
+em {margin: 0 0 2.5rem 0;
     text-decoration: none;
     font-style: normal;
     font-family: Nunito-Black;
-    font-size: 1.3rem;
-    color: #00eeff;}
+    font-size: 1.75rem;
+    color: #00eeff;
+    line-height: 2.3rem;}
 
 ul {margin: 0 auto 2.5rem 3rem;
-    font-family: Nunito-Regular;}
+    font-family: Nunito-Regular;
+    line-height: 2.3rem;}
+
+@media (max-width:500px) {
+    p,b,em,ul {
+        font-size: 1.5rem;
+        line-height: 2.2rem;
+    }
+}
     
    
