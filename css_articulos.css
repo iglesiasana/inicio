@@ -64,6 +64,8 @@ h2 {display: block;
     padding: 1rem;
     text-align: center;}
 
+audio {margin: 0 0 3rem 0;}
+
 p { color: #fff;
     margin: 0 auto 2.5rem auto;
     font-family: Nunito-Light;
