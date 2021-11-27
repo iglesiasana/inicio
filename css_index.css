@@ -114,13 +114,13 @@ a {text-decoration: none;
 
 ul li div a {display: block;}
 
-#texto_logo1 {color: white;
+#texto_logo1 {color: #0ef;
     font-family: Nunito-Bold;
     font-size: 3.5rem;
     margin: 1rem 0 0 0;}
 
-#texto_logo2 {color: white;
-    font-family: Nunito-ExtraLight;
+#texto_logo2 {color: #0ef;
+    font-family: Nunito-Light;
     font-size: 1rem;
     letter-spacing: 1rem;
     margin: 1rem 0 0 0;}
@@ -165,6 +165,8 @@ ul li div a {display: block;}
     margin: .5rem 0 0 0;
     font-family: Nunito-Black;
 }
+
+#texto-sermones {color: #fff;}
 
 
 

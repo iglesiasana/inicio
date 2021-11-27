@@ -42,7 +42,7 @@ section { max-width: 500px;
 h1 {font-size: 3.5rem;
     margin: 0 0 3rem 0;
     font-family: Nunito-Bold;
-    color: #00bbff;
+    color: #0ef;
     line-height: 4.5rem;
     border-radius: .5rem;
     border-width: .05rem;
@@ -56,7 +56,7 @@ h2 {display: block;
     width: 85%;
     margin: 0 0 3rem 0;
     font-family: Nunito-Bold;
-    color: #00bbff;
+    color: #0ef;
     line-height: 3.5rem;
     border-radius: 1rem;
     border-width: .05rem;
@@ -83,7 +83,7 @@ em {margin: 0 0 2.5rem 0;
     font-style: normal;
     font-family: Nunito-Black;
     font-size: 1.75rem;
-    color: #00bbff;
+    color: #0ef;
     line-height: 2.3rem;}
 
 ul {margin: 0 auto 2.5rem 3rem;
@@ -92,9 +92,10 @@ ul {margin: 0 auto 2.5rem 3rem;
 
 @media (max-width:500px) {
     p,b,em,ul {
-        font-size: 1.7rem;
-        line-height: 2.2rem;
-    }
+        font-size: 1.5rem;
+        line-height: 2rem;}
+
+.punto {padding: 0 1.5rem;}
 
     body {padding: .5rem;
         margin: 0 auto;
