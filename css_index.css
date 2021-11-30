@@ -114,6 +114,8 @@ a {text-decoration: none;
 
 ul li div a {display: block;}
 
+#imagen-logo {margin: -3rem 0 0 0;}
+
 #texto_logo1 {color: #0ef;
     font-family: Nunito-Bold;
     font-size: 3.5rem;
