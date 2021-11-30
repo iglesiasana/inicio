@@ -28,6 +28,12 @@ body {background:#000;
     margin: 0 auto;
     width: 37%;}
 
+/*-----------------------------*/
+/*-----------------------------*/
+/*-----------------------------*/
+/*-----------------------------*/
+/*-----------------------------*/
+
 section { max-width: 500px;
     display: flex;
     flex-direction: column;
@@ -90,6 +96,18 @@ ul {margin: 0 auto 2.5rem 3rem;
     font-family: Nunito-Regular;
     line-height: 2.3rem;}
 
+/*-----------------------------*/
+/*-----------------------------*/
+/*-----------------------------*/
+/*-----------------------------*/
+/*-----------------------------*/
+/*-----------------------------*/
+/*-----------------------------*/
+/*-----------------------------*/
+/*-----------------------------*/
+/*-----------------------------*/
+/*-----------------------------*/
+
 @media (max-width:500px) {
     p,b,em,ul {
         font-size: 1.6rem;
@@ -101,6 +119,31 @@ ul {margin: 0 auto 2.5rem 3rem;
         margin: 0 auto;
         width: 95%;}
 
+.portada-artículo {display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: auto;
+    text-align: center;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 0 4rem 0 4rem;}
+
+#logo-serie {margin: 0 0 4rem 0;}
+
+#texto-logo-serie-1 {color: #0ef;
+    font-family: Nunito-Bold;
+    font-size: 3rem;
+    margin: 0 0 4rem 0;}
+
+#texto-logo-serie-2 {color: #0ef;
+    font-family: Nunito-Bold;
+    font-size: 1rem;
+    letter-spacing: .25rem;
+    line-height: 1.5rem;
+    align-self: center;
+    text-align: center;}
 }
     
    
