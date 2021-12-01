@@ -33,7 +33,7 @@ html{font-size: 10px;}
 body {margin: 0 auto;
     display: flex;
     flex-direction: column;
-    background: #000;}
+    background: #fff;}
 
 .icono_mobil {display: none;}
     
@@ -42,6 +42,9 @@ body {margin: 0 auto;
     align-items: center;
     justify-content: center;
     background: none;}
+
+#texto-botones {
+    text-align: center;}
 
 img {
     margin: 0 0 0 0;}
@@ -85,7 +88,7 @@ a {text-decoration: none;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: #000;
+    background: #fff;
     height: 100vh;
     position: relative;
     top: 0px;}
@@ -116,12 +119,12 @@ ul li div a {display: block;}
 
 #imagen-logo {margin: -3rem 0 0 0;}
 
-#texto_logo1 {color: #0ef;
+#texto_logo1 {color: #0ac;
     font-family: Nunito-Bold;
     font-size: 4.5rem;
     margin: 1rem 0 0 0;}
 
-#texto_logo2 {color: #0ef;
+#texto_logo2 {color: #0ac;
     font-family: Nunito-Light;
     font-size: 1.35rem;
     letter-spacing: 1rem;
@@ -129,27 +132,30 @@ ul li div a {display: block;}
 
 .cabecera img {padding: 0;}
 
-    img:not(#imagen-logo) {display: block;
+img:not(#imagen-logo) {display: block;
         margin: .5rem auto -2rem auto;}
     
-    ul {display: block;
-        margin: 0 auto;}
+ul {display: block;
+    margin: 0 auto;}
     
-    li {display: block;
+.boton_menu {text-align: center;}
+    
+li {display: block;
         box-sizing: border-box;
-        margin: 1.5rem;
-        padding: .5rem 0 0 2rem;
+        margin: 1.5rem 0;
+        padding: 0rem 0 0 2rem;
         width: 30rem;
         height: 6rem;
         text-align:left;
         border-radius: 1rem;
         background-image: linear-gradient(45deg, #0aa, #0ef);}
     
-    li:hover {
+li:hover {
         background-image: linear-gradient(90deg #eee, #fff);
-        color: #000;}
+        color: #000;
+        cursor: pointer;}
     
-    a:not(.sermones) {display: block;
+a:not(.sermones) {display: block;
         text-decoration: none;
         color: #fff;
         padding: 0 0 .5rem 0;
@@ -158,20 +164,27 @@ ul li div a {display: block;}
         font-size: 1.2rem;}
 
 .sermones {
-    background-image: linear-gradient(45deg, #000, #333, #000);
+    background-image: linear-gradient(45deg, #fff, #aff, #fff);
+    box-sizing: border-box;
+    margin: .5rem auto;
     border-radius: 1rem;
     height: 3.5rem;}
 
-.sermones a {
+.sermones a {font-size: 1.5rem;
+    display: flex;
+    box-sizing: border-box;
     padding: 0;
     margin: .5rem 0 0 0;
     font-family: Nunito-Black;
+    letter-spacing: .175rem;}
+
+#texto-sermones {color: #08c;}
+
+.bandeja_recursos {display: none;}
+
+.bandeja_recursos.active {display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    justify-content: center;}
+
 }
-
-#texto-sermones {color: #fff;}
-
-
-
-
-}
-

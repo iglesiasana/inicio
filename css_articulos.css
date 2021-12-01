@@ -19,11 +19,11 @@
 * { margin: 0;
     padding: 0;
     background: none;
-    color: #ddd;}
+    color: #444;}
 
 html {font-size: 10px;}
 
-body {background:#000;
+body {background:#fff;
     padding: .05rem;
     margin: 0 auto;
     width: 37%;}
@@ -75,14 +75,14 @@ h2 {display: block;
 
 audio {margin: 0 0 3rem 0;}
 
-p { color: #fff;
+p { color: #666;
     margin: 0 auto 2.5rem auto;
     font-family: Nunito-Light;
     font-size: 1.75rem;
     line-height: 2.3rem;}
 
 b { margin: 0 0 2.5rem 0;
-    color: #ddd;
+    color: #333;
     font-family: Nunito-Bold;
     font-size: 1.75rem;
     line-height: 2.3rem;}
@@ -131,7 +131,7 @@ ul {margin: 0 auto 2.5rem 3rem;
     justify-content: center;
     align-items: center;
     align-content: center;
-    padding: 0 6rem 0 6rem;}
+    padding: 0 5rem 0 5rem;}
 
 #logo-serie {margin: 0 0 5rem 0;}
 
@@ -147,6 +147,12 @@ ul {margin: 0 auto 2.5rem 3rem;
     line-height: 1.5rem;
     align-self: center;
     text-align: center;}
+
+
+
+
+
+
 }
     
    
