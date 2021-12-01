@@ -65,7 +65,7 @@ h2 {display: block;
     width: 85%;
     margin: 0 0 3rem 0;
     font-family: Nunito-Bold;
-    color: #0ef;
+    color: #0aa;
     line-height: 3.5rem;
     border-radius: 1rem;
     border-width: .05rem;
@@ -75,14 +75,14 @@ h2 {display: block;
 
 audio {margin: 0 0 3rem 0;}
 
-p { color: #666;
+p { color: #000;
     margin: 0 auto 2.5rem auto;
-    font-family: Nunito-Light;
+    font-family: Nunito-Regular;
     font-size: 1.75rem;
     line-height: 2.3rem;}
 
 b { margin: 0 0 2.5rem 0;
-    color: #333;
+    color: #000;
     font-family: Nunito-Bold;
     font-size: 1.75rem;
     line-height: 2.3rem;}
@@ -92,7 +92,7 @@ em {margin: 0 0 2.5rem 0;
     font-style: normal;
     font-family: Nunito-Black;
     font-size: 1.75rem;
-    color: #0ef;
+    color: #0aa;
     line-height: 2.3rem;}
 
 ul {margin: 0 auto 2.5rem 3rem;
@@ -111,14 +111,14 @@ ul {margin: 0 auto 2.5rem 3rem;
 /*-----------------------------*/
 /*-----------------------------*/
 
-@media (max-width:500px) {
-    p,b,em,ul {
+@media (max-width:860px) {
+p,b,em,ul {
         font-size: 1.6rem;
         line-height: 2rem;}
 
 .punto {padding: 0 1.5rem;}
 
-    body {padding: .5rem;
+body {padding: .5rem;
         margin: 0 auto;
         width: 95%;}
 
@@ -133,25 +133,87 @@ ul {margin: 0 auto 2.5rem 3rem;
     align-content: center;
     padding: 0 5rem 0 5rem;}
 
-#logo-serie {margin: 0 0 5rem 0;}
+#logo-serie {margin: 5rem 0 5rem 0;}
 
 #texto-logo-serie-1 {color: #0ef;
     font-family: Nunito-Bold;
-    font-size: 3rem;
-    margin: 0 0 5rem 0;}
+    font-size: 4rem;
+    line-height: 4rem;
+    text-align: center;
+    margin: 0 0 0 0;}
 
-#texto-logo-serie-2 {color: #0ef;
-    font-family: Nunito-Black;
-    font-size: 1rem;
-    letter-spacing: .25rem;
-    line-height: 1.5rem;
-    align-self: center;
-    text-align: center;}
+#texto-logo-serie-2 {color: #0aa;
+    font-family: Nunito-Bold;
+    font-size: 4rem;
+    line-height: 4rem;
+    text-align: center;
+    margin: 0 0 0 0;}
+/*-------------------------------------------*/
+/*-------------------------------------------*/
+/*-------------------------------------------*/
+/*-------------------------------------------*/
+/*-------------------------------------------*/
+/*-------------------------------------------*/
+/*-------------------------------------------*/
+/*-------------------------------------------*/
+.cabecera img {padding: 0;}
 
+img:not(#logo-serie) {display: block;
+            margin: 1rem auto -2rem auto;
+        padding: 1rem 0 0 0;}
+        
+ul {display: block;
+        margin: 0 auto;}
+        
+.boton_menu {text-align: center;}
+        
+li {display: block;
+            box-sizing: border-box;
+            margin: 1.5rem 0;
+            padding: 0rem 0 0 ;
+            width: 30rem;
+            height: 6rem;
+            text-align:center;
+            border-radius: 1rem;
+            background-image: linear-gradient(45deg, #0aa, #0ef);}
+        
+li:hover {background-image: linear-gradient(90deg #eee, #fff);
+          color: #000;
+          cursor: pointer;}
+        
+a:not(.sermones) {display: block;
+        text-decoration: none;
+        color: #fff;
+        margin: 2rem 0 0 0;
+        padding: 0 0 .5rem 0;
+        font-family: Nunito-Black;
+        letter-spacing: .25rem;
+        font-size: 1.2rem;}
+    
+.sermones {
+        background-image: linear-gradient(45deg, #fff, #7ef, #fff);
+        box-sizing: border-box;
+        margin: .5rem auto;
+        border-radius: 1rem;
+        height: 3.5rem;}
+    
+.sermones a {font-size: 1.5rem;
+        display: flex;
+        box-sizing: border-box;
+        padding: 0;
+        margin: .5rem 0 0 0;
+        font-family: Nunito-Bold;
+        letter-spacing: .175rem;}
+    
+#texto-sermones {color: #0aa;}
 
+.bandeja_recursos {display: none;}
 
-
-
+.bandeja_recursos.active {display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        justify-content: center;}
+    
 
 }
     

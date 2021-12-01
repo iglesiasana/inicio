@@ -119,21 +119,22 @@ ul li div a {display: block;}
 
 #imagen-logo {margin: -3rem 0 0 0;}
 
-#texto_logo1 {color: #0ac;
+#texto_logo1 {color: #0aa;
     font-family: Nunito-Bold;
-    font-size: 4.5rem;
+    font-size: 3.5rem;
     margin: 1rem 0 0 0;}
 
-#texto_logo2 {color: #0ac;
+#texto_logo2 {color: #0aa;
     font-family: Nunito-Light;
-    font-size: 1.35rem;
+    font-size: 1rem;
     letter-spacing: 1rem;
     margin: 1rem 0 0 0;}
 
 .cabecera img {padding: 0;}
 
 img:not(#imagen-logo) {display: block;
-        margin: .5rem auto -2rem auto;}
+        margin: .5rem auto -2rem auto;
+        padding: .75rem 0 0 0;}
     
 ul {display: block;
     margin: 0 auto;}
@@ -143,7 +144,7 @@ ul {display: block;
 li {display: block;
         box-sizing: border-box;
         margin: 1.5rem 0;
-        padding: 0rem 0 0 2rem;
+        padding: 0rem 0 0 0rem;
         width: 30rem;
         height: 6rem;
         text-align:left;
@@ -175,10 +176,10 @@ a:not(.sermones) {display: block;
     box-sizing: border-box;
     padding: 0;
     margin: .5rem 0 0 0;
-    font-family: Nunito-Black;
+    font-family: Nunito-Bold;
     letter-spacing: .175rem;}
 
-#texto-sermones {color: #08c;}
+#texto-sermones {color: #0aa;}
 
 .bandeja_recursos {display: none;}
 
