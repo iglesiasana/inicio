@@ -47,7 +47,7 @@ section { max-width: 500px;
 
 h1 {font-size: 2.5rem;
     margin: 0 0 3rem 0;
-    font-family: Nunito-Bold;
+    font-family: Nunito-Black;
     box-sizing: border-box;
     color: #0aa;
     
@@ -61,7 +61,7 @@ h2 {display: block;
     font-size: 2.5rem;
     width: 85%;
     margin: 0 0 3rem 0;
-    font-family: Nunito-Bold;
+    font-family: Nunito-Black;
     color: #0aa;
     line-height: 3.5rem;
   
