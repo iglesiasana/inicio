@@ -50,7 +50,6 @@ h1 {font-size: 2.5rem;
     font-family: Nunito-Black;
     box-sizing: border-box;
     color: #0aa;
-    
     padding: 1rem;
     width: 90%;
     text-align: center;
@@ -64,7 +63,6 @@ h2 {display: block;
     font-family: Nunito-Black;
     color: #0aa;
     line-height: 3.5rem;
-  
     padding: 1rem;
     text-align: center;}
 
@@ -132,14 +130,14 @@ body {padding: .5rem;
 
 #texto-logo-serie-1 {color: #0ef;
     font-family: Nunito-Bold;
-    font-size: 3rem;
+    font-size: 2.5rem;
     line-height: 3rem;
     text-align: center;
     margin: 0 0 0 0;}
 
 #texto-logo-serie-2 {color: #0aa;
     font-family: Nunito-Bold;
-    font-size: 3rem;
+    font-size: 2.5rem;
     line-height: 3rem;
     text-align: center;
     margin: 0 0 0 0;}
@@ -198,8 +196,7 @@ a:not(.sermones) {display: block;
         box-sizing: border-box;
         padding: 0;
         margin: .5rem 0 0 0;
-        font-family: Nunito-Black;
-        letter-spacing: ;}
+        font-family: Nunito-Black;}
     
 #texto-sermones {color: #000;
     margin: 1rem 1rem;}
