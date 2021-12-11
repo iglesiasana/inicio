@@ -39,10 +39,13 @@ color: #444;}
 
 html {font-size: 10px;}
 
-body {background:#000;
-padding: .05rem;
-margin: 0 auto;
-width: 37%;}
+body {background: #000;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+margin: 0;
+justify-content: center;
+text-align: center;}
 
 /*-----------------------------*//*-----------------------------*/
 /*-----------------------------*//*-----------------------------*/
@@ -69,7 +72,7 @@ h1 {font-size: 2.5rem;
 margin: 0 0 3rem 0;
 font-family: Nunito-Black;
 box-sizing: border-box;
-color: #0aa;
+color: #0ff;
 padding: 1rem;
 width: 90%;
 text-align: center;
@@ -81,21 +84,21 @@ font-size: 2.5rem;
 width: 85%;
 margin: 0 0 3rem 0;
 font-family: Nunito-Black;
-color: #0aa;
+color: #0ff;
 line-height: 3.5rem;
 padding: 1rem;
 text-align: center;}
 
 audio {margin: 0 0 3rem 0;}
 
-p { color: #000;
+p { color: #eee;
 margin: 0 auto 2.5rem auto;
 font-family: Nunito-Regular;
 font-size: 1.75rem;
 line-height: 2.3rem;}
 
 b { margin: 0 0 2.5rem 0;
-color: #000;
+color: #eee;
 font-family: Nunito-Bold;
 font-size: 1.75rem;
 line-height: 2.3rem;}
@@ -105,7 +108,7 @@ text-decoration: none;
 font-style: normal;
 font-family: Nunito-Black;
 font-size: 1.75rem;
-color: #0aa;
+color: #0ff;
 line-height: 2.3rem;}
 
 ul {margin: 0 auto 2.5rem 3rem;
@@ -135,8 +138,12 @@ line-height: 2rem;}
 margin: 0 auto;
 justify-content: center;}
 
-body {padding: 0;
-margin: 0;}
+body {display: flex;
+    flex-direction: column;
+    padding: 0;
+margin: 0;
+justify-content: center;
+text-align: center;}
 
 .portada {background: #000;
 color: #fff;
