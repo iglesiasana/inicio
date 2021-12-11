@@ -265,6 +265,8 @@ transition: 2s;}
     .logo_frontal_desktop {display:block;}
     
     #imagen_logo_frontal_desktop {
+        position: relative;
+        top: -10vh;
         width: 120vh;}
 
     .logo_frontal_mobil {display: none;}
