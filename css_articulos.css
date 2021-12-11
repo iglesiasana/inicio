@@ -35,17 +35,85 @@ font-family: KaushanScript-Regular;}
 * { margin: 0;
 padding: 0;
 background: none;
-color: #444;}
+color: #fff;}
 
 html {font-size: 10px;}
 
-body {background: #000;
+body {background: #fff;
     display: flex;
     flex-direction: column;
     padding: 0;
 margin: 0;
 justify-content: center;
 text-align: center;}
+
+.portada {background: #000;
+    color: #fff;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    position: relative;}
+    
+    .contenedor_elementos_portada {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    background: #000;
+    width: 90vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0vh;}
+    
+    .logo_superior {background: none;
+    position: relative;
+    top: -2vh;
+    margin: 0 0 2vh 0;}
+    
+    #imagen_logo_superior {color: #0ff;
+    width: 17.5vh;}
+    
+    .texto_logo_1 {color:#fff;
+    font-family: KaushanScript-Regular;
+    font-size: 10vh;
+    position: relative;
+    top: 3 vh;}
+    
+    .texto_logo_2 {color:#000;
+    font-family: KaushanScript-Regular;
+    font-size: 2.5vh;
+    background: #fff;
+    border-radius: 50%;
+    width: 5vh;
+    height: 5vh;
+    text-align: center;
+    margin: 0 0 3vh 0;}
+    
+    .logo_central_portada {width: 20vh;
+    background: #0ff;
+    width: 35vh;
+    height: 35vh;
+    border-radius: 50%;
+    box-sizing: border-box;}
+    
+    #imagen_logo_central_portada {
+    width: 30vh;}
+    
+    .texto_logo_3 {color:#fff;
+    font-family: BebasNeue-Regular;
+    font-size: 2vh;
+    text-align: center;
+    width: 30vh;
+    margin: 2vh 0 4vh 0;}
+    
+    .texto_logo_4 {color:#0ff;
+    font-family: BebasNeue-Regular;
+    font-size: 2.5vh;
+    text-align: center;
+    position: relative;
+    bottom: 1vh;}
 
 /*-----------------------------*//*-----------------------------*/
 /*-----------------------------*//*-----------------------------*/
@@ -91,14 +159,14 @@ text-align: center;}
 
 audio {margin: 0 0 3rem 0;}
 
-p { color: #eee;
+p { color: #000;
 margin: 0 auto 2.5rem auto;
 font-family: Nunito-Regular;
 font-size: 1.75rem;
 line-height: 2.3rem;}
 
 b { margin: 0 0 2.5rem 0;
-color: #eee;
+color: #000;
 font-family: Nunito-Bold;
 font-size: 1.75rem;
 line-height: 2.3rem;}
@@ -240,7 +308,7 @@ width: 30rem;
 height: 6rem;
 text-align:center;
 border-radius: 1rem;
-background-image: linear-gradient(45deg, #0aa, #0ef);}
+background-image: linear-gradient(45deg, #000, #000);}
 
 li:hover {background-image: linear-gradient(90deg #eee, #fff);
 color: #000;
@@ -256,7 +324,7 @@ letter-spacing: .25rem;
 font-size: 1.2rem;}
 
 .sermones {
-background-image: linear-gradient(45deg, #fff, #0aa, #fff);
+background-image: linear-gradient(45deg, #eee, #eee);
 box-sizing: border-box;
 margin: .5rem auto;
 border-radius: 1rem;
