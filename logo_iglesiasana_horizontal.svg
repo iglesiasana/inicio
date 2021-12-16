@@ -10,9 +10,9 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="2750"
-   height="1000"
-   viewBox="0 0 2750 1000"
+   width="2712.094"
+   height="827.28217"
+   viewBox="0 0 2712.094 827.28217"
    version="1.1"
    id="svg989"
    inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
@@ -86,7 +86,7 @@
        y2="984.16345"
        gradientUnits="userSpaceOnUse"
        spreadMethod="repeat"
-       gradientTransform="translate(0,500)" />
+       gradientTransform="translate(18.65756,582.52621)" />
     <filter
        inkscape:collect="always"
        style="color-interpolation-filters:sRGB"
@@ -109,8 +109,8 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.22627417"
-     inkscape:cx="1780.6431"
-     inkscape:cy="685.53979"
+     inkscape:cx="919.62695"
+     inkscape:cy="55.125799"
      inkscape:document-units="px"
      inkscape:current-layer="layer2"
      showgrid="false"
@@ -131,64 +131,68 @@
      inkscape:snap-global="true"
      showborder="true"
      inkscape:pagecheckerboard="false"
-     width="1500px">
+     width="1500px"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0">
     <sodipodi:guide
-       position="-5.7142859,-2.8572658"
+       position="-24.371846,-93.048866"
        orientation="0,1"
        id="guide1544"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="0,2500"
+       position="-18.65756,2409.8084"
        orientation="0,1"
        id="guide1552"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="0,2500"
+       position="-18.65756,2409.8084"
        orientation="1,0"
        id="guide1554"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="2500,2500"
+       position="2481.3424,2409.8084"
        orientation="1,0"
        id="guide1556"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="1250,675.50076"
+       position="1231.3424,585.30916"
        orientation="0,1"
        id="guide1575"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="750,2119.8596"
+       position="731.34244,2029.668"
        orientation="1,0"
        id="guide1701"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="1750,2119.8596"
+       position="1731.3424,2029.668"
        orientation="1,0"
        id="guide1703"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="1725,2125.5739"
+       position="1706.3424,2035.3823"
        orientation="1,0"
        id="guide1707"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="1650,750.50076"
+       position="1631.3424,660.30916"
        orientation="1,0"
        id="guide1715"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="581.5,835.50077"
+       position="562.84244,745.30917"
        orientation="0,1"
        id="guide1891"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="-548.5391,718.00036"
+       position="-567.19666,627.80876"
        orientation="1,0"
        id="guide2008"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="0,750"
+       position="-18.65756,659.8084"
        orientation="0,-1"
        id="guide13959"
        inkscape:locked="false" />
@@ -209,7 +213,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(0,-135.54166)"
+     transform="translate(-18.65756,-218.06787)"
      style="display:none">
     <path
        style="opacity:1;fill:url(#linearGradient3020);fill-opacity:1;stroke:none;stroke-width:15.26099968;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter876)"
@@ -233,7 +237,7 @@
      id="layer2"
      inkscape:label="Layer 2"
      style="display:inline"
-     transform="translate(0,-500)">
+     transform="translate(-18.65756,-582.52621)">
     <g
        aria-label="iglesiasana"
        transform="matrix(9.1220546,0,0,9.1220546,-3351.148,-15781.521)"
