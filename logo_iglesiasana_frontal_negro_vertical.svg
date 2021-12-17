@@ -108,7 +108,7 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.22627417"
-     inkscape:cx="884.91274"
+     inkscape:cx="54.062272"
      inkscape:cy="688.54339"
      inkscape:document-units="px"
      inkscape:current-layer="layer2"
@@ -200,7 +200,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -235,93 +235,93 @@
     <g
        aria-label="iglesiasana"
        transform="matrix(4.5819214,0,0,4.5819214,-1862.4661,-7271.5554)"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:37.48519897px;line-height:1.25;font-family:Nunito;-inkscape-font-specification:'Nunito Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:37.48519897px;line-height:1.25;font-family:Nunito;-inkscape-font-specification:'Nunito Bold';letter-spacing:0px;word-spacing:0px;fill:#007aff;fill-opacity:1;stroke:none"
        id="flowRoot1017">
       <path
          d="m 479.9364,1834.891 q -1.31198,0 -2.06168,-0.6373 -0.71222,-0.6747 -0.71222,-1.8367 0,-1.1996 0.71222,-1.8368 0.7497,-0.6373 2.06168,-0.6373 2.77391,0 2.77391,2.4741 0,2.474 -2.77391,2.474 z m 0,22.3412 q -1.12455,0 -1.72432,-0.6748 -0.59976,-0.6747 -0.59976,-1.8742 v -13.7571 q 0,-2.549 2.32408,-2.549 2.36157,0 2.36157,2.549 v 13.7571 q 0,1.1995 -0.59976,1.8742 -0.59977,0.6748 -1.76181,0.6748 z"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:37.48519897px;font-family:Nunito;-inkscape-font-specification:'Nunito Bold';letter-spacing:0px;fill:#000000;fill-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:37.48519897px;font-family:Nunito;-inkscape-font-specification:'Nunito Bold';letter-spacing:0px;fill:#007aff;fill-opacity:1"
          id="path906" />
       <path
          d="m 495.71764,1864.092 q -2.0242,0 -3.93595,-0.3749 -1.87426,-0.3748 -3.41115,-1.162 -0.89965,-0.4499 -1.08707,-1.1621 -0.14994,-0.6747 0.14994,-1.312 0.29988,-0.6372 0.89964,-0.9371 0.63725,-0.2624 1.34947,0.075 1.64935,0.8247 3.11127,1.0496 1.49941,0.2624 2.549,0.2624 5.02301,0 5.02301,-4.8356 v -2.5115 q -0.78719,1.5369 -2.43653,2.4365 -1.61187,0.8996 -3.59858,0.8996 -2.47403,0 -4.3108,-1.1245 -1.83678,-1.1621 -2.84888,-3.2237 -1.0121,-2.0617 -1.0121,-4.7981 0,-2.7365 1.0121,-4.7607 1.0121,-2.0616 2.84888,-3.1862 1.83677,-1.162 4.3108,-1.162 1.98671,0 3.59858,0.8621 1.61186,0.8622 2.36156,2.3616 v -0.7872 q 0,-1.1621 0.59977,-1.7618 0.63724,-0.5998 1.72432,-0.5998 2.32408,0 2.32408,2.3616 v 14.4318 q 0,4.4607 -2.36157,6.7098 -2.36157,2.2492 -6.85979,2.2492 z m -0.11246,-11.1331 q 2.17414,0 3.44864,-1.4995 1.2745,-1.4994 1.2745,-4.0858 0,-2.5865 -1.2745,-4.0484 -1.2745,-1.4995 -3.44864,-1.4995 -2.17414,0 -3.44864,1.4995 -1.27449,1.4619 -1.27449,4.0484 0,2.5864 1.27449,4.0858 1.2745,1.4995 3.44864,1.4995 z"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:37.48519897px;font-family:Nunito;-inkscape-font-specification:'Nunito Bold';letter-spacing:0px;fill:#000000;fill-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:37.48519897px;font-family:Nunito;-inkscape-font-specification:'Nunito Bold';letter-spacing:0px;fill:#007aff;fill-opacity:1"
          id="path908" />
       <path
          d="m 516.07203,1857.3446 q -6.26003,0 -6.26003,-7.0097 v -17.7305 q 0,-2.3616 2.32409,-2.3616 2.36156,0 2.36156,2.3616 v 17.5056 q 0,3.3736 2.81139,3.3736 0.29988,0 0.56228,0 0.2624,-0.037 0.52479,-0.075 0.5248,-0.075 0.71222,0.2999 0.18743,0.3373 0.18743,1.4244 0,0.9371 -0.37485,1.4619 -0.37486,0.5248 -1.23701,0.6373 -0.78719,0.1124 -1.61187,0.1124 z"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:37.48519897px;font-family:Nunito;-inkscape-font-specification:'Nunito Bold';letter-spacing:0px;fill:#000000;fill-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:37.48519897px;font-family:Nunito;-inkscape-font-specification:'Nunito Bold';letter-spacing:0px;fill:#007aff;fill-opacity:1"
          id="path910" />
       <path
          d="m 530.61619,1857.3446 q -3.11127,0 -5.36038,-1.162 -2.24912,-1.1621 -3.48613,-3.2987 -1.19952,-2.1367 -1.19952,-5.0605 0,-2.8489 1.16204,-4.9856 1.19952,-2.1366 3.26121,-3.3361 2.09917,-1.237 4.76062,-1.237 3.89846,0 6.14757,2.474 2.2866,2.474 2.2866,6.7473 0,1.387 -1.79929,1.387 h -11.32053 q 0.52479,4.9105 5.62278,4.9105 0.97461,0 2.17414,-0.2249 1.23701,-0.2624 2.32408,-0.8621 0.97462,-0.5623 1.64935,-0.3374 0.67474,0.1874 0.93713,0.7872 0.29988,0.5997 0.075,1.3494 -0.18742,0.7123 -1.04958,1.2371 -1.31199,0.8246 -3.0363,1.237 -1.68684,0.3748 -3.14876,0.3748 z m -0.67474,-15.8937 q -2.06168,0 -3.33618,1.2745 -1.27449,1.2745 -1.53689,3.4486 h 9.22136 q -0.14994,-2.2866 -1.2745,-3.4861 -1.08707,-1.237 -3.07379,-1.237 z"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:37.48519897px;font-family:Nunito;-inkscape-font-specification:'Nunito Bold';letter-spacing:0px;fill:#000000;fill-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:37.48519897px;font-family:Nunito;-inkscape-font-specification:'Nunito Bold';letter-spacing:0px;fill:#007aff;fill-opacity:1"
          id="path912" />
       <path
          d="m 548.60907,1857.3446 q -1.61186,0 -3.41115,-0.3373 -1.79929,-0.3374 -3.22373,-1.1621 -0.78719,-0.4498 -0.97461,-1.0871 -0.18743,-0.6747 0.0375,-1.237 0.2624,-0.5997 0.82468,-0.8621 0.59976,-0.2624 1.38695,0.1124 1.49941,0.7122 2.81139,1.0121 1.31198,0.2624 2.58648,0.2624 1.79929,0 2.66145,-0.5997 0.89964,-0.6373 0.89964,-1.6494 0,-1.5744 -2.32408,-2.0242 l -3.74852,-0.7122 q -4.76062,-0.8997 -4.76062,-4.9481 0,-1.7992 0.97461,-3.1112 1.01211,-1.312 2.77391,-2.0242 1.7618,-0.7122 4.0484,-0.7122 3.2987,0 5.88518,1.4619 0.71222,0.3748 0.82467,1.0496 0.14994,0.6372 -0.14994,1.237 -0.2624,0.5623 -0.86216,0.8246 -0.59976,0.225 -1.38695,-0.1499 -1.16204,-0.5998 -2.24911,-0.8622 -1.04959,-0.2623 -2.0242,-0.2623 -1.83678,0 -2.73642,0.6372 -0.86216,0.6372 -0.86216,1.6868 0,1.6494 2.13665,2.0242 l 3.74852,0.7123 q 2.43654,0.4498 3.67355,1.6493 1.2745,1.1995 1.2745,3.2237 0,2.7364 -2.13666,4.3108 -2.13665,1.5369 -5.69775,1.5369 z"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:37.48519897px;font-family:Nunito;-inkscape-font-specification:'Nunito Bold';letter-spacing:0px;fill:#000000;fill-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:37.48519897px;font-family:Nunito;-inkscape-font-specification:'Nunito Bold';letter-spacing:0px;fill:#007aff;fill-opacity:1"
          id="path914" />
       <path
          d="m 562.51604,1834.891 q -1.31198,0 -2.06168,-0.6373 -0.71222,-0.6747 -0.71222,-1.8367 0,-1.1996 0.71222,-1.8368 0.7497,-0.6373 2.06168,-0.6373 2.77391,0 2.77391,2.4741 0,2.474 -2.77391,2.474 z m 0,22.3412 q -1.12455,0 -1.72431,-0.6748 -0.59977,-0.6747 -0.59977,-1.8742 v -13.7571 q 0,-2.549 2.32408,-2.549 2.36157,0 2.36157,2.549 v 13.7571 q 0,1.1995 -0.59976,1.8742 -0.59976,0.6748 -1.76181,0.6748 z"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:37.48519897px;font-family:Nunito;-inkscape-font-specification:'Nunito Bold';letter-spacing:0px;fill:#000000;fill-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:37.48519897px;font-family:Nunito;-inkscape-font-specification:'Nunito Bold';letter-spacing:0px;fill:#007aff;fill-opacity:1"
          id="path916" />
       <path
          d="m 575.78577,1857.3446 q -1.98671,0 -3.56109,-0.7497 -1.53689,-0.7872 -2.43654,-2.0992 -0.86216,-1.3119 -0.86216,-2.9613 0,-2.0242 1.04959,-3.1862 1.04958,-1.1996 3.41115,-1.7243 2.36157,-0.5248 6.335,-0.5248 h 1.31198 v -0.7872 q 0,-1.8743 -0.82467,-2.699 -0.82468,-0.8246 -2.77391,-0.8246 -1.08707,0 -2.36157,0.2624 -1.23701,0.2624 -2.62396,0.8996 -0.89965,0.4123 -1.49941,0.1125 -0.59976,-0.3374 -0.82467,-1.0121 -0.18743,-0.7123 0.075,-1.4245 0.29988,-0.7122 1.16204,-1.0496 1.72432,-0.7122 3.2987,-1.0121 1.61186,-0.2998 2.92384,-0.2998 4.01092,0 5.96015,1.8742 1.94923,1.8368 1.94923,5.7352 v 8.9965 q 0,2.399 -2.17414,2.399 -2.21163,0 -2.21163,-2.399 v -0.8247 q -0.63725,1.5369 -2.0242,2.4366 -1.38695,0.8621 -3.2987,0.8621 z m 0.97462,-3.2237 q 1.83677,0 3.0363,-1.2745 1.23701,-1.2745 1.23701,-3.2237 v -0.8247 h -1.2745 q -3.52361,0 -4.91056,0.5623 -1.34946,0.5248 -1.34946,1.9492 0,1.237 0.86215,2.0242 0.86216,0.7872 2.39906,0.7872 z"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:37.48519897px;font-family:Nunito;-inkscape-font-specification:'Nunito Bold';letter-spacing:0px;fill:#000000;fill-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:37.48519897px;font-family:Nunito;-inkscape-font-specification:'Nunito Bold';letter-spacing:0px;fill:#007aff;fill-opacity:1"
          id="path918" />
       <path
          d="m 596.96487,1857.3446 q -1.61186,0 -3.41115,-0.3373 -1.79929,-0.3374 -3.22373,-1.1621 -0.78719,-0.4498 -0.97462,-1.0871 -0.18742,-0.6747 0.0375,-1.237 0.2624,-0.5997 0.82467,-0.8621 0.59977,-0.2624 1.38696,0.1124 1.4994,0.7122 2.81139,1.0121 1.31198,0.2624 2.58648,0.2624 1.79928,0 2.66144,-0.5997 0.89965,-0.6373 0.89965,-1.6494 0,-1.5744 -2.32408,-2.0242 l -3.74852,-0.7122 q -4.76062,-0.8997 -4.76062,-4.9481 0,-1.7992 0.97461,-3.1112 1.0121,-1.312 2.77391,-2.0242 1.7618,-0.7122 4.0484,-0.7122 3.2987,0 5.88517,1.4619 0.71222,0.3748 0.82468,1.0496 0.14994,0.6372 -0.14994,1.237 -0.2624,0.5623 -0.86216,0.8246 -0.59976,0.225 -1.38695,-0.1499 -1.16205,-0.5998 -2.24912,-0.8622 -1.04958,-0.2623 -2.0242,-0.2623 -1.83677,0 -2.73642,0.6372 -0.86216,0.6372 -0.86216,1.6868 0,1.6494 2.13666,2.0242 l 3.74852,0.7123 q 2.43654,0.4498 3.67355,1.6493 1.2745,1.1995 1.2745,3.2237 0,2.7364 -2.13666,4.3108 -2.13666,1.5369 -5.69775,1.5369 z"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:37.48519897px;font-family:Nunito;-inkscape-font-specification:'Nunito Bold';letter-spacing:0px;fill:#000000;fill-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:37.48519897px;font-family:Nunito;-inkscape-font-specification:'Nunito Bold';letter-spacing:0px;fill:#007aff;fill-opacity:1"
          id="path920" />
       <path
          d="m 614.58288,1857.3446 q -1.98672,0 -3.5611,-0.7497 -1.53689,-0.7872 -2.43654,-2.0992 -0.86216,-1.3119 -0.86216,-2.9613 0,-2.0242 1.04959,-3.1862 1.04959,-1.1996 3.41115,-1.7243 2.36157,-0.5248 6.335,-0.5248 h 1.31198 v -0.7872 q 0,-1.8743 -0.82467,-2.699 -0.82467,-0.8246 -2.7739,-0.8246 -1.08708,0 -2.36157,0.2624 -1.23701,0.2624 -2.62397,0.8996 -0.89964,0.4123 -1.4994,0.1125 -0.59977,-0.3374 -0.82468,-1.0121 -0.18742,-0.7123 0.075,-1.4245 0.29988,-0.7122 1.16204,-1.0496 1.72432,-0.7122 3.2987,-1.0121 1.61186,-0.2998 2.92385,-0.2998 4.01091,0 5.96014,1.8742 1.94923,1.8368 1.94923,5.7352 v 8.9965 q 0,2.399 -2.17414,2.399 -2.21163,0 -2.21163,-2.399 v -0.8247 q -0.63724,1.5369 -2.0242,2.4366 -1.38695,0.8621 -3.29869,0.8621 z m 0.97461,-3.2237 q 1.83678,0 3.0363,-1.2745 1.23701,-1.2745 1.23701,-3.2237 v -0.8247 h -1.27449 q -3.52361,0 -4.91056,0.5623 -1.34947,0.5248 -1.34947,1.9492 0,1.237 0.86216,2.0242 0.86216,0.7872 2.39905,0.7872 z"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:37.48519897px;font-family:Nunito;-inkscape-font-specification:'Nunito Bold';letter-spacing:0px;fill:#000000;fill-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:37.48519897px;font-family:Nunito;-inkscape-font-specification:'Nunito Bold';letter-spacing:0px;fill:#007aff;fill-opacity:1"
          id="path922" />
       <path
          d="m 631.37621,1857.2696 q -2.32409,0 -2.32409,-2.399 v -14.1694 q 0,-2.3616 2.2866,-2.3616 2.2866,0 2.2866,2.3616 v 0.7872 q 0.93713,-1.5744 2.51151,-2.3991 1.61186,-0.8246 3.59857,-0.8246 6.48494,0 6.48494,7.5345 v 9.0714 q 0,2.399 -2.32408,2.399 -2.36157,0 -2.36157,-2.399 v -8.8465 q 0,-2.1367 -0.82467,-3.1113 -0.78719,-0.9746 -2.47402,-0.9746 -2.06169,0 -3.2987,1.312 -1.19953,1.2745 -1.19953,3.4111 v 8.2093 q 0,2.399 -2.36156,2.399 z"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:37.48519897px;font-family:Nunito;-inkscape-font-specification:'Nunito Bold';letter-spacing:0px;fill:#000000;fill-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:37.48519897px;font-family:Nunito;-inkscape-font-specification:'Nunito Bold';letter-spacing:0px;fill:#007aff;fill-opacity:1"
          id="path924" />
       <path
          d="m 657.01606,1857.3446 q -1.98672,0 -3.5611,-0.7497 -1.53689,-0.7872 -2.43653,-2.0992 -0.86216,-1.3119 -0.86216,-2.9613 0,-2.0242 1.04958,-3.1862 1.04959,-1.1996 3.41116,-1.7243 2.36156,-0.5248 6.33499,-0.5248 h 1.31199 v -0.7872 q 0,-1.8743 -0.82468,-2.699 -0.82467,-0.8246 -2.7739,-0.8246 -1.08707,0 -2.36157,0.2624 -1.23701,0.2624 -2.62396,0.8996 -0.89965,0.4123 -1.49941,0.1125 -0.59977,-0.3374 -0.82468,-1.0121 -0.18742,-0.7123 0.075,-1.4245 0.29988,-0.7122 1.16204,-1.0496 1.72432,-0.7122 3.2987,-1.0121 1.61187,-0.2998 2.92385,-0.2998 4.01091,0 5.96014,1.8742 1.94923,1.8368 1.94923,5.7352 v 8.9965 q 0,2.399 -2.17414,2.399 -2.21162,0 -2.21162,-2.399 v -0.8247 q -0.63725,1.5369 -2.0242,2.4366 -1.38696,0.8621 -3.2987,0.8621 z m 0.97461,-3.2237 q 1.83678,0 3.0363,-1.2745 1.23702,-1.2745 1.23702,-3.2237 v -0.8247 h -1.2745 q -3.52361,0 -4.91056,0.5623 -1.34947,0.5248 -1.34947,1.9492 0,1.237 0.86216,2.0242 0.86216,0.7872 2.39905,0.7872 z"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:37.48519897px;font-family:Nunito;-inkscape-font-specification:'Nunito Bold';letter-spacing:0px;fill:#000000;fill-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:37.48519897px;font-family:Nunito;-inkscape-font-specification:'Nunito Bold';letter-spacing:0px;fill:#007aff;fill-opacity:1"
          id="path926" />
     </g>
     <g
        aria-label="VENEZUELA"
        transform="matrix(2.2723854,0,0,2.2723854,-630.08991,-2837.6876)"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.68849945px;line-height:1.25;font-family:Nunito;-inkscape-font-specification:Nunito;letter-spacing:14.00930023px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.68849945px;line-height:1.25;font-family:Nunito;-inkscape-font-specification:Nunito;letter-spacing:14.00930023px;word-spacing:0px;fill:#007aff;fill-opacity:1;stroke:none"
        id="flowRoot1025">
       <path
          d="m 483.13218,1852.9557 q -0.6337,0 -0.93881,-0.6807 l -6.59513,-15.2321 q -0.16429,-0.4225 0.047,-0.6572 0.21123,-0.2582 0.56328,-0.2582 0.32858,0 0.49287,0.1409 0.1643,0.1408 0.30512,0.4224 l 6.14919,14.3168 6.14919,-14.3168 q 0.25817,-0.5633 0.79799,-0.5633 0.37552,0 0.53981,0.2582 0.16429,0.2582 0,0.6572 l -6.59512,15.2321 q -0.14083,0.3521 -0.35206,0.5164 -0.21123,0.1643 -0.56328,0.1643 z"
-         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:23.47019768px;font-family:Nunito;-inkscape-font-specification:'Nunito Light';letter-spacing:17.60264778px;fill:#000000;fill-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:23.47019768px;font-family:Nunito;-inkscape-font-specification:'Nunito Light';letter-spacing:17.60264778px;fill:#007aff;fill-opacity:1"
          id="path887" />
       <path
          d="m 511.64846,1852.8149 q -0.79799,0 -0.79799,-0.8215 v -14.9036 q 0,-0.8214 0.79799,-0.8214 h 8.87173 q 0.65717,0 0.65717,0.6102 0,0.6337 -0.65717,0.6337 h -8.26151 v 6.29 h 7.79211 q 0.65716,0 0.65716,0.6102 0,0.6337 -0.65716,0.6337 h -7.79211 v 6.5247 h 8.26151 q 0.65717,0 0.65717,0.6103 0,0.6337 -0.65717,0.6337 z"
-         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:23.47019768px;font-family:Nunito;-inkscape-font-specification:'Nunito Light';letter-spacing:17.60264778px;fill:#000000;fill-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:23.47019768px;font-family:Nunito;-inkscape-font-specification:'Nunito Light';letter-spacing:17.60264778px;fill:#007aff;fill-opacity:1"
          id="path889" />
       <path
          d="m 542.65255,1852.9557 q -0.68064,0 -0.68064,-0.7276 v -15.3495 q 0,-0.7511 0.61023,-0.7511 0.28164,0 0.42246,0.094 0.16429,0.094 0.32858,0.3521 l 10.25648,13.8005 v -13.5423 q 0,-0.7042 0.68063,-0.7042 0.65717,0 0.65717,0.7042 v 15.3964 q 0,0.7276 -0.58676,0.7276 -0.44593,0 -0.77451,-0.446 l -10.25648,-13.8239 v 13.5423 q 0,0.7276 -0.65716,0.7276 z"
-         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:23.47019768px;font-family:Nunito;-inkscape-font-specification:'Nunito Light';letter-spacing:17.60264778px;fill:#000000;fill-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:23.47019768px;font-family:Nunito;-inkscape-font-specification:'Nunito Light';letter-spacing:17.60264778px;fill:#007aff;fill-opacity:1"
          id="path891" />
       <path
          d="m 577.64657,1852.8149 q -0.79799,0 -0.79799,-0.8215 v -14.9036 q 0,-0.8214 0.79799,-0.8214 h 8.87173 q 0.65717,0 0.65717,0.6102 0,0.6337 -0.65717,0.6337 h -8.26151 v 6.29 h 7.79211 q 0.65716,0 0.65716,0.6102 0,0.6337 -0.65716,0.6337 h -7.79211 v 6.5247 h 8.26151 q 0.65717,0 0.65717,0.6103 0,0.6337 -0.65717,0.6337 z"
-         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:23.47019768px;font-family:Nunito;-inkscape-font-specification:'Nunito Light';letter-spacing:17.60264778px;fill:#000000;fill-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:23.47019768px;font-family:Nunito;-inkscape-font-specification:'Nunito Light';letter-spacing:17.60264778px;fill:#007aff;fill-opacity:1"
          id="path893" />
       <path
          d="m 607.61797,1852.8149 q -0.53982,0 -0.70411,-0.4225 -0.16429,-0.4459 0.25817,-1.0327 l 9.69319,-13.8005 h -9.34114 q -0.72757,0 -0.72757,-0.6571 0,-0.6337 0.72757,-0.6337 h 10.3973 q 0.56329,0 0.72758,0.4459 0.16429,0.4225 -0.25817,1.0092 l -9.6932,13.8005 h 9.66973 q 0.72757,0 0.72757,0.6337 0,0.6572 -0.72757,0.6572 z"
-         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:23.47019768px;font-family:Nunito;-inkscape-font-specification:'Nunito Light';letter-spacing:17.60264778px;fill:#000000;fill-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:23.47019768px;font-family:Nunito;-inkscape-font-specification:'Nunito Light';letter-spacing:17.60264778px;fill:#007aff;fill-opacity:1"
          id="path895" />
       <path
          d="m 645.56926,1853.0026 q -3.16848,0 -4.8114,-1.6898 -1.64291,-1.7134 -1.64291,-4.9522 v -9.5055 q 0,-0.7276 0.70411,-0.7276 0.72757,0 0.72757,0.7276 v 9.3881 q 0,5.4451 5.02263,5.4451 5.02262,0 5.02262,-5.4451 v -9.3881 q 0,-0.7276 0.72757,-0.7276 0.70411,0 0.70411,0.7276 v 9.5055 q 0,3.2388 -1.64291,4.9522 -1.64292,1.6898 -4.81139,1.6898 z"
-         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:23.47019768px;font-family:Nunito;-inkscape-font-specification:'Nunito Light';letter-spacing:17.60264778px;fill:#000000;fill-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:23.47019768px;font-family:Nunito;-inkscape-font-specification:'Nunito Light';letter-spacing:17.60264778px;fill:#007aff;fill-opacity:1"
          id="path897" />
       <path
          d="m 674.62534,1852.8149 q -0.79799,0 -0.79799,-0.8215 v -14.9036 q 0,-0.8214 0.79799,-0.8214 h 8.87173 q 0.65717,0 0.65717,0.6102 0,0.6337 -0.65717,0.6337 h -8.26151 v 6.29 h 7.79211 q 0.65716,0 0.65716,0.6102 0,0.6337 -0.65716,0.6337 h -7.79211 v 6.5247 h 8.26151 q 0.65717,0 0.65717,0.6103 0,0.6337 -0.65717,0.6337 z"
-         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:23.47019768px;font-family:Nunito;-inkscape-font-specification:'Nunito Light';letter-spacing:17.60264778px;fill:#000000;fill-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:23.47019768px;font-family:Nunito;-inkscape-font-specification:'Nunito Light';letter-spacing:17.60264778px;fill:#007aff;fill-opacity:1"
          id="path899" />
       <path
          d="m 705.67637,1852.8149 q -0.72758,0 -0.72758,-0.7511 v -15.1617 q 0,-0.7511 0.70411,-0.7511 0.72758,0 0.72758,0.7511 v 14.6219 h 8.07374 q 0.70411,0 0.70411,0.6337 0,0.6572 -0.70411,0.6572 z"
-         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:23.47019768px;font-family:Nunito;-inkscape-font-specification:'Nunito Light';letter-spacing:17.60264778px;fill:#000000;fill-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:23.47019768px;font-family:Nunito;-inkscape-font-specification:'Nunito Light';letter-spacing:17.60264778px;fill:#007aff;fill-opacity:1"
          id="path901" />
       <path
          d="m 733.98141,1852.9557 q -0.46941,0 -0.61023,-0.2817 -0.14082,-0.3051 0.0469,-0.7275 l 6.59513,-15.1618 q 0.28164,-0.6572 0.8684,-0.6572 0.58675,0 0.86839,0.6572 l 6.59513,15.1618 q 0.21123,0.4224 0.0704,0.7275 -0.11735,0.2817 -0.56328,0.2817 -0.32859,0 -0.53982,-0.1643 -0.18776,-0.1878 -0.32858,-0.4929 l -1.66639,-3.896 h -8.87173 l -1.66639,3.896 q -0.28164,0.6572 -0.79798,0.6572 z m 6.87677,-14.9036 -3.87259,9.1064 h 7.79211 l -3.87258,-9.1064 z"
-         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:23.47019768px;font-family:Nunito;-inkscape-font-specification:'Nunito Light';letter-spacing:17.60264778px;fill:#000000;fill-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:23.47019768px;font-family:Nunito;-inkscape-font-specification:'Nunito Light';letter-spacing:17.60264778px;fill:#007aff;fill-opacity:1"
          id="path903" />
     </g>
     <path
@@ -332,6 +332,6 @@
        inkscape:export-filename="/home/eduardo/iglesiasana/inicio/logo_iglesiasana_acuamarina-azul.png"
        id="path864"
        d="m 749.99931,203.77621 c 0,0 -17.98031,1e-5 -31.06405,15.51288 v 0.001 l -20.83304,24.65474 -228.33778,270.42796 -18.03063,21.35436 c -18.03263,21.35484 -34.51503,40.87546 -34.51503,74.97685 v 311.02118 56.7889 c 0,29.01942 23.52488,52.54432 52.54429,52.54432 H 720.9248 v -0.017 h 242.57948 v 0.017 h 66.73122 c 29.0195,0 52.5443,-23.5249 52.5443,-52.54432 V 921.72518 610.704 c 0,-34.10139 -16.4824,-53.62194 -34.5137,-74.97685 L 1030.2355,514.37319 801.89773,243.94523 781.08115,219.29045 C 767.98151,203.77609 749.99931,203.77621 749.99931,203.77621 Z M 627.39596,256.3205 c 0,0 -14.40197,2.9e-4 -24.8819,12.42591 v 10e-4 l -16.68695,19.74789 -182.89518,216.6098 -14.44284,17.10422 c -14.44281,17.10499 -27.64459,32.74042 -27.64459,60.05512 v 249.12427 45.48777 c 0.006,21.9932 16.94418,40.2738 38.8732,41.9534 -0.0925,-85.89238 0.0543,-171.79046 -0.0137,-257.68336 0.33152,-20.4281 -0.66781,-40.90118 0.49944,-61.30308 1.86413,-24.18438 13.79736,-46.30903 29.16208,-64.61168 74.47587,-88.55894 149.27877,-176.89993 223.90162,-265.32814 l -0.97558,-1.15625 C 641.79889,256.32055 627.39594,256.3201 627.39594,256.3201 Z m 245.20811,0 c 0,0 -14.40436,4.5e-4 -24.89703,12.42727 l -0.96738,1.14667 c 50.29491,59.49449 100.47077,119.09397 150.77612,178.57945 25.50992,30.52782 51.64862,60.53993 76.77082,91.38602 14.9266,18.56887 25.2098,41.41884 25.889,65.47649 0.2549,104.4856 0.086,208.97749 0.1149,313.46638 21.9152,-1.6828 38.8453,-19.9462 38.865,-41.9259 V 831.38904 582.26477 c 0,-27.31463 -13.2018,-42.95006 -27.6446,-60.05512 L 1097.068,505.10543 914.17284,288.49567 897.48456,268.74777 v -10e-4 C 887.00463,256.32075 872.60407,256.32046 872.60407,256.32046 Z M 515.3001,305.36184 c 0,0 -10.97557,5.5e-4 -18.96248,9.47029 v 10e-4 l -12.71735,15.05039 -139.38743,165.08081 -11.00693,13.03617 c -11.00703,13.03596 -21.06835,24.95126 -21.06835,45.76825 v 189.86146 34.6669 c 0.0103,17.35878 13.82836,31.55946 31.18038,32.04382 -0.0582,-77.09278 -0.003,-154.18934 0.0438,-231.28114 0.26697,-21.51009 9.81264,-41.85755 23.43968,-58.14215 56.71061,-67.55927 113.75969,-134.88624 170.65676,-202.28873 l -3.20466,-3.79578 c -7.99662,-9.47067 -18.97341,-9.47165 -18.97341,-9.47165 z m 469.39845,0 c 0,0 -10.97686,7e-4 -18.97347,9.47166 l -3.19918,3.78894 c 56.7457,67.16034 113.52,134.329 170.1094,201.6196 13.5349,16.06994 23.3155,36.02164 23.9241,57.31707 0.224,77.58634 0.098,155.17857 0.104,232.76842 17.3461,-0.48493 31.1613,-14.67716 31.179,-32.03009 v -34.6669 -189.86146 c 0,-20.81699 -10.0627,-32.73229 -21.0697,-45.76825 L 1155.7671,494.96466 1016.3783,329.88388 1003.661,314.8335 v -0.001 c -7.98693,-9.46975 -18.96245,-9.47029 -18.96245,-9.47029 z M 741.24193,540.29505 h 17.51476 v 140.46841 h 136.96546 v 17.51476 H 758.75669 V 849.95609 H 741.24193 V 698.27822 H 602.87529 v -17.51476 h 138.36664 z"
-       style="display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:10.69171238;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+       style="display:inline;opacity:1;fill:#007aff;fill-opacity:1;stroke:none;stroke-width:10.69171238;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   </g>
 </svg>

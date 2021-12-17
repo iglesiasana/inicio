@@ -1,19 +1,19 @@
 @font-face {src: url("Nunito-Regular.ttf");
-    font-family: Nunito-Regular;}
+font-family: Nunito-Regular;}
 @font-face {src: url("Nunito-ExtraLight.ttf");
-    font-family: Nunito-ExtraLight;}
+font-family: Nunito-ExtraLight;}
 @font-face {src: url("Nunito-Bold.ttf");
-    font-family: Nunito-Bold;}
+font-family: Nunito-Bold;}
 @font-face {src: url("Nunito-SemiBold.ttf");
-    font-family: Nunito-SemiBold;}
+font-family: Nunito-SemiBold;}
 @font-face {src: url("Nunito-Black.ttf");
-    font-family: Nunito-Black;}
+font-family: Nunito-Black;}
 @font-face {src: url("Nunito-Light.ttf");
-        font-family: Nunito-Light;}
+font-family: Nunito-Light;}
 @font-face {src: url("BebasNeue-Regular.ttf");
-    font-family: BebasNeue-Regular;} 
+font-family: BebasNeue-Regular;} 
 @font-face {src: url("KaushanScript-Regular.ttf");
-    font-family: KaushanScript-Regular;} 
+font-family: KaushanScript-Regular;} 
 /*---------------------------------------*//*---------------------------------------*/
 /*---------------------------------------*//*---------------------------------------*/
 /*---------------------------------------*//*---------------------------------------*/
@@ -23,12 +23,12 @@
 /*---------------------------------------*//*---------------------------------------*/
 /*---------------------------------------*//*---------------------------------------*/
 /*---------------------------------------*//*---------------------------------------*/
-    * 
+* 
 {margin: 0;
 padding: 0;}
-    html
+html
 {font-size: 10px;}
-    body
+body
 {margin: 0;
 display: flex;
 flex-direction: column;
@@ -119,11 +119,12 @@ letter-spacing: 0rem;}
 
 .bandeja_ideal_y_relevante.active
 {display: flex;
-    flex-direction: column;
-    box-sizing: border-box;
-    justify-content: center;
-    position: relative;
-    top: 0;}
+flex-direction: column;
+box-sizing: border-box;
+justify-content: center;
+position: relative;
+top: 0;
+overflow: auto;}
 /*-----------------------------*//*-----------------------------*/
 /*-----------------------------*//*-----------------------------*/
 /*-----------------------------*//*-----------------------------*/
@@ -132,7 +133,7 @@ letter-spacing: 0rem;}
 /*-----------------------------*//*-----------------------------*/
 /*-----------------------------*//*-----------------------------*/
 /*-----------------------------*//*-----------------------------*/
-    .portada_index 
+.portada_index 
 {display: flex;
 box-sizing: border-box;
 background: none;
@@ -144,37 +145,37 @@ align-items: center;
 position: relative;
 margin: 0 0 25vh 0;}
 /*-----------------------------*//*-----------------------------*/
-    .logo_frontal_desktop
+.logo_frontal_desktop
 {background: none;
 position: relative;
 top: 0;}
 /*-----------------------------*//*-----------------------------*/
-    #imagen_logo_frontal_desktop 
+#imagen_logo_frontal_desktop 
 {width: 100vh;}
 /*-----------------------------*//*-----------------------------*/
-    .logo_frontal_mobil 
+.logo_frontal_mobil 
 {display: none;}
 /*-----------------------------*//*-----------------------------*/
-    .bloque_informacion 
+.bloque_informacion 
 {display: flex;
-    flex-direction: column;
-    box-sizing: border-box;
-    justify-content: center;
-    align-items: center;
-    max-width: 500px;
-    height: 100vh;
-    background: #eee;
-    padding: 4rem;}
+flex-direction: column;
+box-sizing: border-box;
+justify-content: center;
+align-items: center;
+max-width: 500px;
+height: 100vh;
+background: #eee;
+padding: 4rem;}
 /*-----------------------------*//*-----------------------------*/
-    h2
+h2
 {font-family: Nunito-Black;
 font-size: 4rem;
 margin: 4rem 0;
 text-align: center;}
 /*-----------------------------*//*-----------------------------*/
-    p
+p
 {font-family: Nunito-Black;
-    font-size: 1.75rem;
+font-size: 1.75rem;
 text-align: justify;}
 /*---------------------------------------*//*---------------------------------------*/
 /*---------------------------------------*//*---------------------------------------*/
@@ -379,34 +380,57 @@ line-height: 2.3rem;}
 /*---------------------------------------*//*---------------------------------------*/
 /*---------------------------------------*//*---------------------------------------*/
 /*---------------------------------------*//*---------------------------------------*/
-@media (max-width: 400px) {
+/*---------------------------------------*//*---------------------------------------*/
+/*---------------------------------------*//*---------------------------------------*/
+/*---------------------------------------*//*---------------------------------------*/
+/*---------------------------------------*//*---------------------------------------*/
+/*---------------------------------------*//*---------------------------------------*/
+/*---------------------------------------*//*---------------------------------------*/
+/*---------------------------------------*//*---------------------------------------*/
+/*---------------------------------------*//*---------------------------------------*/
+/*---------------------------------------*//*---------------------------------------*/
+/*---------------------------------------*//*---------------------------------------*/
+/*---------------------------------------*//*---------------------------------------*/
+/*---------------------------------------*//*---------------------------------------*/
+/*---------------------------------------*//*---------------------------------------*/
+/*---------------------------------------*//*---------------------------------------*/
+/*---------------------------------------*//*---------------------------------------*/
+/*---------------------------------------*//*---------------------------------------*/
+@media (max-width: 450px) {
 /*---------------------------------------*//*---------------------------------------*/
 /*---------------------------------------*//*---------------------------------------*/
 /*---------------------------------------*//*---------------------------------------*/
 /*---------------------------------------*//*---------------------------------------*/
 body
 {margin: 0;
-padding: 0;}
+padding: 0;
+width: 100vw;}
 /*---------------------------------------*//*---------------------------------------*/
 /*---------------------------------------*//*---------------------------------------*/
 /*---------------------------------------*//*---------------------------------------*/
 /*---------------------------------------*//*---------------------------------------*/
+:root 
+{--altoCabecera: 10vh;
+--punto3AltoCabecera: 3vh;
+--punto2AltoCabecera: 2vh;
+--puntoCero2AltoCabecera: .2vh;}
+
 .cabecera
 {display:flex;
 flex-direction: row;
-margin: 0 auto;
-padding: 1rem 3rem;
+margin: 0;
+padding: 0;
 align-items: center;
-height: 8vh;
+height: 10vh;
 justify-content: space-between;
-position: relative;}
+position: fixed;}
 /*---------------------------------------*//*---------------------------------------*/
 /*---------------------------------------*//*---------------------------------------*/
 #imagen_logo_superior
-{width: 25rem;
+{height: 50%;
 position: relative;
 bottom: -.5vh;
-margin: 0;}
+margin: 0 0 0 10%;}
 /*---------------------------------------*//*---------------------------------------*/
 /*---------------------------------------*//*---------------------------------------*/
 .contenedor_icono_menu
@@ -414,17 +438,18 @@ margin: 0;}
 flex-direction: column;
 justify-content: space-evenly;
 align-items: center;
-width: 2rem;
-height: 2rem;
+width: var(--punto3AltoCabecera);
+height: var(--punto3AltoCabecera);
 border-radius: .5rem;
 cursor: pointer;
+padding: var(--puntoCero2AltoCabecera);
 background: #fff;
-padding: .1rem;}
+margin: 0 5% 0 0;}
 /*---------------------------------------*//*---------------------------------------*/
 .icono_menu
 {width: 1.2rem;
-    height: .1rem;
-    border-radius: .1rem;
+height: .1rem;
+border-radius: .1rem;
 background: #007bff;}
 /*---------------------------------------*//*---------------------------------------*/
 /*---------------------------------------*//*---------------------------------------*/
@@ -433,26 +458,30 @@ background: #007bff;}
 
 .nav.active
 {display: flex;
-flex-grow: 1;
+    flex-direction: column;
 position: absolute;
-top: 8vh;
+top: 10vh;
 left: 0;
+right: 0;
 padding: 0;
-background: rgba(0, 122, 255, .9)}
+background: rgba(0, 122, 255, .9);}
 /*-----------------------------*//*-----------------------------*/
 .nav_ul
 {display: block;
 width: 100vw;
 list-style-type: none;
 cursor: pointer;
-margin: 1rem 3rem;
+margin: 0 3rem;
 padding: 0;
 background: none;
-position: relative;}
+position: relative;
+left: 0;}
 /*---------------------------------------*//*---------------------------------------*/
 /*---------------------------------------*//*---------------------------------------*/
 li
-{padding: 1rem 0;}
+{padding: 1rem 0rem;
+border-top: solid 1px #fff;
+}
 
 li:hover
 {background: #0000ff;}
@@ -505,11 +534,12 @@ letter-spacing: 0rem;}
 
 .bandeja_ideal_y_relevante.active
 {display: flex;
-    flex-direction: column;
-    box-sizing: border-box;
-    justify-content: center;
-    position: relative;
-    top: 0;}
+flex-direction: column;
+box-sizing: border-box;
+justify-content: center;
+position: relative;
+top: 0;
+overflow: scroll;}
 /*---------------------------------------*//*---------------------------------------*/
 /*---------------------------------------*//*---------------------------------------*/
 /*---------------------------------------*//*---------------------------------------*/
@@ -520,15 +550,16 @@ letter-spacing: 0rem;}
 /*---------------------------------------*//*---------------------------------------*/
 .portada_index {background: none;
 background-size: cover;
-height: 100vh;
+height: 90vh;
 width: 100vw;
+margin: 10vh 0 0 0;
 position: relative;}
 /*-----------------------------*//*-----------------------------*/
 .logo_frontal_desktop {display: none;}
 /*-----------------------------*//*-----------------------------*/
 .logo_frontal_mobil {
-    display: block;
-    background: none;
+display: block;
+background: none;
 position: relative;
 top: -10vh;}
 /*-----------------------------*//*-----------------------------*/
