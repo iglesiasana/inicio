@@ -187,7 +187,28 @@ body {margin: 0;
 padding: 0;
 display: flex;
 position: relative;}
-
+/*---------------------------------------*//*---------------------------------------*/
+/*---------------------------------------*//*---------------------------------------*/
+/*---------------------------------------*//*---------------------------------------*/
+/*---------------------------------------*//*---------------------------------------*/
+.cabecera {display:flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;}
+/*---------------------------------------*//*---------------------------------------*/
+  
+    .bandeja_recursos {display: none;}
+    
+    .bandeja_recursos.active {display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    justify-content: center;
+    transition: 2s;}
+/*---------------------------------------*//*---------------------------------------*/
+/*---------------------------------------*//*---------------------------------------*/
+/*---------------------------------------*//*---------------------------------------*/
+/*---------------------------------------*//*---------------------------------------*/
 .portada_index {background: none;
 background-size: cover;
 height: 100vh;
@@ -206,75 +227,7 @@ top: -10vh;}
 width: 40vh;
 color: #000;}
 
-.cabecera {display:flex;
-flex-direction: column;
-margin: 0 auto;
-align-items: center;
-justify-content: center;}
 
-ul li div a {display: block;}
-
-.cabecera img {padding: 0;}
-
-img:not(#imagen-logo) {display: block;
-        margin: .5rem auto -2rem auto;
-        padding: .75rem 0 0 0;}
-    
-ul {display: block;
-    margin: 0 auto;}
-    
-.boton_menu {text-align: center;}
-    
-li {display: block;
-        box-sizing: border-box;
-        margin: 1.5rem 0;
-        padding: 0rem 0 0 0rem;
-        width: 30rem;
-        height: 6rem;
-        text-align:center;
-        border-radius: 1rem;
-        background-image: linear-gradient(45deg, #000, #000);}
-    
-li:hover {
-        background-image: linear-gradient(90deg #eee, #eee);
-        color: #000;
-        cursor: pointer;}
-    
-a:not(.sermones) {display: block;
-        text-decoration: none;
-        color: #fff;
-        padding: 0 0 .5rem 0;
-        font-family: Nunito-Black;
-        letter-spacing: .25rem;
-        margin: 2rem 0 0 0;
-        font-size: 1.2rem;}
-
-.sermones {
-    background-image: linear-gradient(45deg, #eee, #eee);
-    box-sizing: border-box;
-    margin: .5rem auto;
-    border-radius: 1rem;
-    height: 3.5rem;
-    padding: 0 .5rem;}
-
-.sermones a {font-size: 1.2rem;
-    display: flex;
-    box-sizing: border-box;
-    padding: 0;
-    margin: .5rem 0 0 0;
-    font-family: Nunito-Black;
-    letter-spacing: ;}
-
-#texto-sermones {color: #000;
-margin: 1rem 1rem;}
-
-.bandeja_recursos {display: none;}
-
-.bandeja_recursos.active {display: flex;
-flex-direction: column;
-box-sizing: border-box;
-justify-content: center;
-transition: 2s;}
 }
 
 
