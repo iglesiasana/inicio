@@ -124,7 +124,8 @@ box-sizing: border-box;
 justify-content: center;
 position: relative;
 top: 0;
-overflow: auto;}
+overflow: auto;
+max-height: 100%;}
 /*-----------------------------*//*-----------------------------*/
 /*-----------------------------*//*-----------------------------*/
 /*-----------------------------*//*-----------------------------*/
@@ -414,7 +415,10 @@ width: 100vw;}
 --punto3AltoCabecera: 3vh;
 --punto2AltoCabecera: 2vh;
 --puntoCero2AltoCabecera: .2vh;}
-
+/*---------------------------------------*//*---------------------------------------*/
+/*---------------------------------------*//*---------------------------------------*/
+/*---------------------------------------*//*---------------------------------------*/
+/*---------------------------------------*//*---------------------------------------*/
 .cabecera
 {display:flex;
 flex-direction: row;
@@ -531,11 +535,12 @@ letter-spacing: 0rem;}
 {display: flex;
 flex-direction: column;
 box-sizing: border-box;
-justify-content: center;
 position: relative;
 top: 0;
+left: 0;
+background: #007bff;
 overflow: scroll;
-max-height: 35vh;}
+max-height: 100%;}
 /*---------------------------------------*//*---------------------------------------*/
 /*---------------------------------------*//*---------------------------------------*/
 /*---------------------------------------*//*---------------------------------------*/
@@ -621,6 +626,23 @@ text-align: center;}
 p,b,em,ul
 {font-size: 1.6rem;
 line-height: 2rem;}
+/*-----------------------------*//*-----------------------------*/
+/*-----------------------------*//*-----------------------------*/
+.bloque_informacion 
+{display: flex;
+flex-direction: column;
+box-sizing: border-box;
+justify-content: center;
+align-items: center;
+max-width: 500px;
+height: 100vh;
+background: #007bff;
+padding: 4rem;
+border-radius: 0;}
+
+.bloque_informacion > h2
+{color: #fff;}
+/*-----------------------------*//*-----------------------------*/
 /*-----------------------------*//*-----------------------------*/
 .punto
 {padding: 0 1.5rem;}
