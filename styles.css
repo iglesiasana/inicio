@@ -308,9 +308,14 @@ padding: 1rem;
 text-align: center;}
 /*-----------------------------*//*-----------------------------*/ 
 h3
-{font-size: 1.75rem;
+{display: block;
+box-sizing: border-box;
+font-size: 1.75rem;
+margin: 0 0 2.5rem 0;
 font-family: Nunito-Black;
 color: #000;
+line-height: 2.5rem;
+padding: 1rem;
 text-align: center;}
 /*-----------------------------*//*-----------------------------*/ 
 audio
@@ -333,7 +338,7 @@ line-height: 2.3rem;}
 /*-----------------------------*//*-----------------------------*/ 
 em
 {margin: 0 0 2.5rem 0;
-text-decoration: none;
+text-decoration: underline;
 font-style: normal;
 font-family: Nunito-Black;
 font-size: 1.75rem;
@@ -392,6 +397,9 @@ justify-content: center;
 align-items: center;
 align-content: center;
 font-family: Nunito-ExtraLight;}
+
+.punto > h3 
+{color: #000;}
 /*-----------------------------*//*-----------------------------*/ 
 .cantico 
 {text-align: center;
