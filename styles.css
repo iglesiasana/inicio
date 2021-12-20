@@ -66,7 +66,6 @@ flex-direction: row;
 flex-grow: 1;
 padding: 1rem;
 margin: 0;
-height: 10vh;
 align-items: center;}
 /*-----------------------------*//*-----------------------------*/
 .nav_ul
@@ -81,7 +80,8 @@ li
 font-family: Nunito-Bold;
 letter-spacing: .25rem;
 padding: 1rem 2rem;
-margin: 0;}
+margin: 0;
+width: 100%;}
 
 li:hover
 {background: #002bff;}
@@ -89,7 +89,8 @@ li:hover
 a 
 {text-decoration: none;
 color: #fff;
-font-size: 1rem;}
+font-size: 1rem;
+width: 100%;}
 /*-----------------------------*//*-----------------------------*/
 /*-----------------------------*//*-----------------------------*/ 
 .bandeja_recursos
@@ -106,19 +107,6 @@ top: 10vh;
 right: 0;
 width: 35vh;}
 /*-----------------------------*//*-----------------------------*/
-.bandeja_recursos > li 
-{text-decoration: none;
-color: #000;
-letter-spacing: 0rem;
-padding: 1rem 2rem;
-margin: 0;
-font-family: Nunito-Bold;}  
-/*-----------------------------*//*-----------------------------*/
-.bandeja_recursos > a 
-{text-decoration: none;
-color: #000;
-letter-spacing: 0rem;}
-/*-----------------------------*//*-----------------------------*/
 /*-----------------------------*//*-----------------------------*/  
 .bandeja_ideal_y_relevante
 {display: none;}
@@ -133,7 +121,17 @@ flex-wrap: wrap;
 top: 0;
 overflow-y: scroll;
 height: 70vh;
-width: 35vh;}
+width: 35vh;
+background: rgba(0, 122, 220, .5);}
+
+.bandeja_ideal_y_relevante.active::-webkit-scrollbar
+{width: 5%;}
+
+.bandeja_ideal_y_relevante.active::-webkit-scrollbar-track
+{background-color: #fff;}
+
+.bandeja_ideal_y_relevante.active::-webkit-scrollbar-thumb
+{background-color: #007bff;}
 /*-----------------------------*//*-----------------------------*/
 /*-----------------------------*//*-----------------------------*/
 /*-----------------------------*//*-----------------------------*/
@@ -478,11 +476,13 @@ width: 100vw;}
 .cabecera
 {display:flex;
 flex-direction: row;
+flex-wrap: wrap;
+flex-shrink: 1;
 margin: 0;
 padding: 0;
 align-items: center;
-height: 10vh;
-justify-content: space-between;
+height: 6rem;
+justify-content: center;
 position: fixed;}
 /*---------------------------------------*//*---------------------------------------*/
 /*---------------------------------------*//*---------------------------------------*/
@@ -490,7 +490,7 @@ position: fixed;}
 {height: 50%;
 position: relative;
 bottom: -.5vh;
-margin: 0 0 0 10%;}
+margin: 0 auto;}
 /*---------------------------------------*//*---------------------------------------*/
 /*---------------------------------------*//*---------------------------------------*/
 .contenedor_icono_menu
@@ -504,7 +504,7 @@ border-radius: .5rem;
 cursor: pointer;
 padding: var(--puntoCero2AltoCabecera);
 background: #fff;
-margin: 0 5% 0 0;}
+margin: 0 5% 0 auto;}
 /*---------------------------------------*//*---------------------------------------*/
 .icono_menu
 {width: 1.2rem;
@@ -518,30 +518,31 @@ background: #007bff;}
 
 .nav.active
 {display: flex;
-    flex-direction: column;
+flex-direction: column;
 position: absolute;
-top: 10vh;
+padding: 0;
+margin: 0 0 0 auto;
+top: 6rem;
 left: 0;
 right: 0;
-padding: 0 2rem;
-background: rgba(0, 122, 255, .9);}
+background: rgba(0, 122, 200, .9);
+width: 50vw;}
 /*-----------------------------*//*-----------------------------*/
 .nav_ul
 {display: block;
-width: 100vw;
+width: 100%;
 list-style-type: none;
 cursor: pointer;
-margin: 0 3rem;
-padding: 0;
-background: none;
 position: relative;
+padding: 0;
+margin: 0;
 left: 0;}
 /*---------------------------------------*//*---------------------------------------*/
-/*---------------------------------------*//*---------------------------------------*/
 li
-{padding: 1rem 2rem;
+{padding: 1rem 1rem;
+    margin: 0;
 border-top: solid 1px #fff;
-}
+width: 100%;}
 
 li:hover
 {background: #0000ff;}
@@ -551,7 +552,9 @@ a
 {text-decoration: none;
 color: #fff;
 font-size: 1rem;
-padding: 0 2rem;}
+
+padding: 2rem 1rem;
+margin: 0;}
 /*---------------------------------------*//*---------------------------------------*/
 /*---------------------------------------*//*---------------------------------------*/
 .bandeja_recursos
@@ -561,29 +564,12 @@ background: none;}
 .bandeja_recursos.active
 {display: flex;
 flex-direction: column;
-box-sizing: border-box;
-justify-content: center;
+flex-wrap: wrap;
 position: relative;
 top: 0;
-background: #007bff;}
-/*---------------------------------------*//*---------------------------------------*/
-/*---------------------------------------*//*---------------------------------------*/
-.bandeja_recursos > li 
-{text-decoration: none;
-letter-spacing: 0rem;
-padding: .75rem 0;
-font-family: Nunito-Bold;
-top: 0;
-left: 0;}
-
-.bandeja_recursos > li:hover
-{text-decoration: none;
-background: #007bff;
-letter-spacing: 0rem;}
-/*-----------------------------*//*-----------------------------*/
-.bandeja_recursos > a 
-{text-decoration: none;
-letter-spacing: 0rem;}
+padding: 0;
+margin: 0;
+background: rgba(0, 122, 200, .5)}
 /*---------------------------------------*//*---------------------------------------*/
 /*---------------------------------------*//*---------------------------------------*/
 .bandeja_ideal_y_relevante
@@ -591,14 +577,24 @@ letter-spacing: 0rem;}
 
 .bandeja_ideal_y_relevante.active
 {display: flex;
-flex-direction: column;
+flex-direction: row;
+flex-wrap: wrap;
 box-sizing: border-box;
 position: relative;
 top: 0;
 left: 0;
-background: #007bff;
 overflow: scroll;
-max-height: 50vh;}
+max-height: 30vh;
+background: rgba(0, 50, 200, .5);}
+
+.bandeja_ideal_y_relevante.active::-webkit-scrollbar
+{width: 5%;}
+
+.bandeja_ideal_y_relevante.active::-webkit-scrollbar-track
+{background-color: #fff;}
+
+.bandeja_ideal_y_relevante.active::-webkit-scrollbar-thumb
+{background-color: #007bff;}
 /*---------------------------------------*//*---------------------------------------*/
 /*---------------------------------------*//*---------------------------------------*/
 /*---------------------------------------*//*---------------------------------------*/
