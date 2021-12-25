@@ -24,6 +24,18 @@
      id="defs983">
     <linearGradient
        inkscape:collect="always"
+       id="linearGradient845">
+      <stop
+         style="stop-color:#007aff;stop-opacity:1;"
+         offset="0"
+         id="stop841" />
+      <stop
+         style="stop-color:#00ffff;stop-opacity:0.85096157"
+         offset="1"
+         id="stop843" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
        id="linearGradient1019-6-7">
       <stop
          style="stop-color:#00ffff;stop-opacity:1"
@@ -100,6 +112,15 @@
          stdDeviation="1.2153799"
          id="feGaussianBlur878" />
     </filter>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient845"
+       id="linearGradient847"
+       x1="-0.0078125"
+       y1="1180.6328"
+       x2="949.99219"
+       y2="-0.203125"
+       gradientUnits="userSpaceOnUse" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -108,9 +129,9 @@
      borderopacity="1"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.64"
-     inkscape:cx="387.33542"
-     inkscape:cy="161.94592"
+     inkscape:zoom="0.47395265"
+     inkscape:cx="525.91067"
+     inkscape:cy="578.94368"
      inkscape:document-units="px"
      inkscape:current-layer="layer2"
      showgrid="false"
@@ -205,7 +226,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -239,7 +260,7 @@
      style="display:inline"
      transform="translate(-274.99805,-159.58203)">
     <path
-       style="display:inline;opacity:1;fill:#007aff;fill-opacity:1;stroke:none;stroke-width:15.26099968;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="display:inline;opacity:1;fill:url(#linearGradient847);fill-opacity:1;stroke:none;stroke-width:15.26099968;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="M 474.99219 -0.203125 C 474.99219 -0.203125 449.3296 -0.20310688 430.6543 21.939453 L 430.6543 21.941406 L 400.91602 57.132812 L 74.994141 443.13281 L 49.257812 473.61328 C 23.518622 504.09448 -0.0078125 531.95761 -0.0078125 580.63281 L -0.0078125 1024.5742 L -0.0078125 1105.6328 C -0.0078125 1147.0541 33.570828 1180.6328 74.992188 1180.6328 L 433.49219 1180.6328 L 433.49219 1180.6074 L 779.74219 1180.6074 L 779.74219 1180.6328 L 874.99219 1180.6328 C 916.41359 1180.6328 949.99219 1147.0541 949.99219 1105.6328 L 949.99219 1024.5742 L 949.99219 580.63281 C 949.99219 531.95761 926.46572 504.09458 900.72852 473.61328 L 874.99219 443.13281 L 549.07031 57.132812 L 519.35742 21.941406 C 500.65942 -0.20329375 474.99219 -0.203125 474.99219 -0.203125 z M 438.22656 480.06836 L 511.51562 480.06836 L 511.51562 656.38867 L 682.98047 656.38867 L 682.98047 680.63281 L 682.99219 680.63281 L 682.99219 705.63281 L 682.98047 705.63281 L 682.98047 729.86914 L 511.51562 729.86914 L 511.51562 922.125 L 487.49219 922.125 L 487.49219 922.13281 L 462.49219 922.13281 L 462.49219 922.125 L 438.22656 922.125 L 438.22656 729.86914 L 264.98828 729.86914 L 264.98828 656.38867 L 438.22656 656.38867 L 438.22656 480.06836 z "
        transform="translate(274.99805,159.58203)"
        id="path864" />
