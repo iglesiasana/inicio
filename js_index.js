@@ -17,3 +17,4 @@ toggleButton.addEventListener('click', () => {
 botonSerie.addEventListener('click', () => {
     bandejaIdealYrelevante.classList.toggle('active')
 })
+
