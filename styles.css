@@ -444,10 +444,80 @@ align-self: center;}
 /*---------------------------------------*//*---------------------------------------*/
 /*---------------------------------------*//*---------------------------------------*/
 .contenedor_ultimas_publicaciones
-{height: 100vh;
+{display: flex;
+flex-direction: row;
+min-height: 100vh;
 width: 100vw;
-padding 1rem;
-background-image:linear-gradient(180deg, #007bff, #0000ff);}
+align-items: center;
+justify-content: space-evenly;
+padding: 4rem;
+background-image:linear-gradient(180deg, #007bff, #0000ff);
+position: relative;}
+/*---------------------------------------*//*---------------------------------------*/
+/*---------------------------------------*//*---------------------------------------*/
+/*---------------------------------------*//*---------------------------------------*/
+/*---------------------------------------*//*---------------------------------------*/
+.etiqueta_publicacion 
+{display: flex;
+flex-direction: row;
+box-sizing: border-box;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: center;
+padding: 3rem 1rem 3rem 1rem;
+background-image: linear-gradient(45deg, #007bff, #00ffff);
+max-width: 35vh;
+position: relative;
+border-radius: 2rem;
+box-shadow: .75rem .75rem .75rem 0 rgba(50, 50, 50, .8);
+transition: .25s;}
+
+.etiqueta_publicacion:hover
+{scale: 1.05;}
+/*---------------------------------------*//*---------------------------------------*/
+#div_imagen_etiqueta_publicacion 
+{display: flex;
+    box-sizing: border-box;
+justify-content: center;
+align-items: center;
+width: 18rem;
+height: 18rem;
+background: #007bff;
+border-radius: 50%;}
+/*---------------------------------------*//*---------------------------------------*/
+#imagen_etiqueta_publicacion 
+{width: 12rem;}
+/*---------------------------------------*//*---------------------------------------*/
+.etiqueta_publicacion > button
+{display:flex;
+background: #0070ff;
+border: none;
+border-radius: 1.5rem;
+width: 16rem;
+height: 3rem;
+transition: .25s;
+align-items: center;
+font-family: Nunito-Black;}
+
+.etiqueta_publicacion > button:hover
+{scale: 1.05;}
+
+.etiqueta_publicacion > button > *
+{font-size: 1.35rem;}
+
+/*---------------------------------------*//*---------------------------------------*/
+#texto_etiqueta_portada_h3 
+{color: #fff;
+margin: 1rem 0 0 0;}
+/*---------------------------------------*//*---------------------------------------*/
+#texto_etiqueta_portada_p 
+{color: #fff;
+margin: 0;
+font-family: Nunito-Black;
+text-align: center;
+font-size: 1.25rem;
+margin: 1rem 2rem 2rem 2rem;
+line-height: 2rem;}
 /*---------------------------------------*//*---------------------------------------*/
 /*---------------------------------------*//*---------------------------------------*/
 /*---------------------------------------*//*---------------------------------------*/
@@ -500,9 +570,7 @@ padding: 0 2rem;}
     border-top-right-radius: 1rem;
     font-family: Nunito-Black;
     color: #fff;
-    font-size: 1.5rem;
-}
-
+    font-size: 1.5rem;}
 
 /*---------------------------------------*//*---------------------------------------*/
 /*---------------------------------------*//*---------------------------------------*/
