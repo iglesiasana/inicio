@@ -148,7 +148,7 @@ top: 0;}
 /*-----------------------------*//*-----------------------------*/
 #imagen_logo_frontal_desktop 
 {width: 100vh;
-filter: drop-shadow(2rem 2rem .5rem #bbb);
+filter: none;
 position: fixed;
 top: 30vh;
 left: 55vh;
@@ -207,7 +207,7 @@ position: relative;}
 #imagen_logo_central_portada
 {width: 25vh;
 align-self: center;
-filter: drop-shadow(.5rem .5rem .25rem #008);}
+filter: none;}
 /*-----------------------------*//*-----------------------------*/ 
 .texto_logo_1 
 {color:#000;
@@ -372,7 +372,8 @@ align-items: center;
 position: relative;
 align-self: center;
 margin: 0 0 0 0;
-box-shadow: 0 3rem .5rem rgba(122, 122, 122, .5);
+padding: 0 .5rem;
+box-shadow: 0 2rem .5rem rgba(122, 122, 122, .5);
 z-index: 90;}
 
 .punto_articulo_azul > h1, h2, h3, h4
@@ -448,7 +449,6 @@ width: 100vw;
 align-items: center;
 justify-content: space-evenly;
 padding: 4rem;
-background-image:linear-gradient(180deg, #007bff, #0000ff);
 position: relative;}
 /*---------------------------------------*//*---------------------------------------*/
 /*---------------------------------------*//*---------------------------------------*/
@@ -462,11 +462,12 @@ flex-direction: column;
 justify-content: space-evenly;
 align-items: center;
 padding: 3rem 1rem 3rem 1rem;
-background:rgba(0, 100, 240, 1);
+background:#fff;
+border: solid 4px #007bff;
 max-width: 35vh;
 height: 70vh;
 position: relative;
-border-radius: 1rem;
+border-radius: 2rem;
 box-shadow: .8rem .8rem .5rem 0 rgba(122, 122, 122, .5);
 transition: .25s;}
 
@@ -480,17 +481,16 @@ justify-content: center;
 align-items: center;
 width: 18rem;
 height: 18rem;
-background: #0070ff;
-border-radius: 50%;
-box-shadow: .45rem .45rem .25rem .1rem #009;}
+background: #007bff;
+border-radius: 50%;}
 /*---------------------------------------*//*---------------------------------------*/
 #imagen_etiqueta_publicacion 
 {width: 12rem;
-filter: drop-shadow(.2rem .2rem .2rem #222);}
+filter: none;}
 /*---------------------------------------*//*---------------------------------------*/
 .etiqueta_publicacion > button
 {display:flex;
-background: #0070ff;
+background: #007bff;
 border: none;
 border-radius: 1.5rem;
 width: 16rem;
@@ -498,8 +498,7 @@ height: 3rem;
 transition: .25s;
 align-items: center;
 justify-content: center;
-font-family: Nunito-Black;
-box-shadow: .4rem .6rem .1rem 0 #009;}
+font-family: Nunito-Black;}
 
 .etiqueta_publicacion > button:hover
 {scale: 1.05;}
@@ -511,11 +510,11 @@ text-decoration: none;}
 
 /*---------------------------------------*//*---------------------------------------*/
 #texto_etiqueta_portada_h3 
-{color: #fff;
+{color: #007bff;
 margin: 1rem 0 0 0;}
 /*---------------------------------------*//*---------------------------------------*/
 #texto_etiqueta_portada_p 
-{color: #fff;
+{color: #007bff;
 margin: 0;
 font-family: Nunito-Black;
 text-align: center;
@@ -550,7 +549,7 @@ margin: 2rem 0 6rem 0;}
 /*---------------------------------------*//*---------------------------------------*/
 #lista_serie li 
 {display: flex;
-    background-image: linear-gradient(45deg, #0070ff, #00ccff);
+    background-image: linear-gradient(45deg, #0070ff, #00aaff);
 border-radius: .5rem;
 margin: 1rem 0rem;
 padding: 1.5rem 1.5rem;
@@ -558,7 +557,7 @@ list-style-type: none;
 height: 6rem;
 align-items: center;
 transition: .25s;
-box-shadow: .25rem .25rem .45rem 0 #aaa;}
+box-shadow: .30rem .35rem .25rem 0 #aaa;}
 
 #lista_serie li:hover 
 {scale: 1.05;}
@@ -854,7 +853,7 @@ position: relative;}
 .logo_frontal_mobil {
 display: block;
 background: none;
-filter: drop-shadow(2rem 2rem .5rem #bbb);
+filter: none;
 position: fixed;
 top: 30vh;}
 /*-----------------------------*//*-----------------------------*/
@@ -953,7 +952,6 @@ margin: 5rem 0 0 0;}
 max-width: 70vw;
 margin: 2rem 0 6rem 0;}
 
-
 .contenedor_ultimas_publicaciones
 {display: flex;
 flex-direction: row;
@@ -962,7 +960,6 @@ width: 100vw;
 align-items: center;
 justify-content: space-evenly;
 padding: 4rem;
-background-image:linear-gradient(180deg, #007bff, #0000ff);
 position: relative;}
 /*---------------------------------------*//*---------------------------------------*/
 /*---------------------------------------*//*---------------------------------------*/
@@ -976,12 +973,11 @@ flex-direction: column;
 justify-content: space-evenly;
 align-items: center;
 padding: 2rem 1rem 3rem 1rem;
-background:rgba(0, 100, 240, 1);
 max-width: 40vh;
 height: 80vh;
 position: relative;
 border-radius: 1rem;
-box-shadow: .8rem .8rem .5rem 0 rgba(122, 122, 122, .5);
+box-shadow: 1rem 1rem .2rem 0 rgba(122, 122, 122, .5);
 transition: .25s;}
 
 .etiqueta_publicacion:hover
@@ -994,17 +990,14 @@ justify-content: center;
 align-items: center;
 width: 25vh;
 height: 25vh;
-background: #0070ff;
-border-radius: 50%;
-box-shadow: .45rem .45rem .25rem .1rem #009;}
+border-radius: 50%;}
 /*---------------------------------------*//*---------------------------------------*/
 #imagen_etiqueta_publicacion 
-{width: 20vh;
-filter: drop-shadow(.2rem .2rem .2rem #222);}
+{width: 15vh;
+filter: none;}
 /*---------------------------------------*//*---------------------------------------*/
 .etiqueta_publicacion > button
 {display:flex;
-background: #0070ff;
 border: none;
 border-radius: 1.5rem;
 width: 16rem;
@@ -1012,8 +1005,7 @@ height: 3rem;
 transition: .25s;
 align-items: center;
 justify-content: center;
-font-family: Nunito-Black;
-box-shadow: .4rem .6rem .1rem 0 #009;}
+font-family: Nunito-Black;}
 
 .etiqueta_publicacion > button:hover
 {scale: 1.05;}
@@ -1025,28 +1017,25 @@ text-decoration: none;}
 
 /*---------------------------------------*//*---------------------------------------*/
 #texto_etiqueta_portada_h3 
-{color: #fff;
+{
 margin: 1rem 0 0 0;}
 /*---------------------------------------*//*---------------------------------------*/
 #texto_etiqueta_portada_p 
-{color: #fff;
+{
 margin: 0;
 font-family: Nunito-Black;
 text-align: center;
 font-size: 1.25rem;
 margin: 1rem 2rem 2rem 2rem;
 line-height: 1.75rem;}
-
-}
-
-
-
-
-
-
-
-
-
+/*---------------------------------------*//*---------------------------------------*/
+/*---------------------------------------*//*---------------------------------------*/
+/*---------------------------------------*//*---------------------------------------*/
+/*---------------------------------------*//*---------------------------------------*/
+/*---------------------------------------*//*---------------------------------------*/
+/*---------------------------------------*//*---------------------------------------*/
+/*---------------------------------------*//*---------------------------------------*/
+/*---------------------------------------*//*---------------------------------------*/
 .pie_de_web
 {display: flex;
 flex-direction: row;
@@ -1058,9 +1047,13 @@ background: rgba(0, 50, 255, 1);
 align-items: center;
 justify-content: center;
 position: relative;
-top: 5vh;
+top: 0vh;
+margin: 0rem 0 0 0;
 left: 0;
 z-index: 100;}
 
 .pie_de_web img
 {height: 2.5rem;}
+
+
+}
