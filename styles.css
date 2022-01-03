@@ -152,11 +152,10 @@ position: relative;
 top: 0;}
 /*-----------------------------*//*-----------------------------*/
 #imagen_logo_frontal_desktop 
-{width: 100vh;
+{width: 75vw;
 filter: none;
-position: fixed;
-top: 30vh;
-left: 55vh;
+position: relative;
+bottom: 0vh;
 z-index: -100;}
 
 /*-----------------------------*//*-----------------------------*/
@@ -415,6 +414,9 @@ align-items: center;
 position: relative;
 align-self: center;
 margin: 0 0 0 0;}
+
+.header_index_blanco_transparente > *
+{color: #007bff;}
 /*---------------------------------------*//*---------------------------------------*/
 /*---------------------------------------*//*---------------------------------------*/
 /*---------------------------------------*//*---------------------------------------*/
@@ -893,6 +895,7 @@ border-top-right-radius: 0vh;}
 background-size: cover;
 height: 90vh;
 width: 100vw;
+justify-content: center;
 margin: 10vh 0 0 0;
 position: relative;}
 /*-----------------------------*//*-----------------------------*/
@@ -901,9 +904,8 @@ position: relative;}
 .logo_frontal_mobil {
 display: block;
 background: none;
-filter: none;
-position: fixed;
-top: 30vh;}
+position: relative;
+bottom: 10vh;}
 /*-----------------------------*//*-----------------------------*/
 #imagen_logo_frontal_mobil {
 width: 45vh;
@@ -1165,6 +1167,26 @@ margin: auto;}
 @media (max-height: 450px) {
 /*---------------------------------------*//*---------------------------------------*/
 /*---------------------------------------*//*---------------------------------------*/
+/*---------------------------------------*//*---------------------------------------*/
+/*---------------------------------------*//*---------------------------------------*/
+.bandeja_recursos
+{display: none;
+background: none;}
+
+.bandeja_recursos.active
+{display: flex;
+flex-direction: column;
+flex-wrap: nowrap;
+position: absolute;
+top: 7rem;
+left: 2.5%;
+right: 2.5%;
+padding: 0;
+margin: 0;
+width: 95%;
+background: #007bff;
+border-top-left-radius: 0vh;
+border-top-right-radius: 0vh;}
 /*---------------------------------------*//*---------------------------------------*/
 /*---------------------------------------*//*---------------------------------------*/
 .portada
