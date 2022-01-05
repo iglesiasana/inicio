@@ -48,7 +48,7 @@ width: 100%;
 height: 6rem;
 padding: 0;
 box-sizing: border-box;
-background: rgba(0, 122, 255,.9);
+background-image: linear-gradient(45deg, #aa7bff, #dd00ee, #ff7bee, #aa7bff, #00ffff);
 align-items: center;
 box-shadow: 0rem 1rem 1rem rgba(70, 70, 70, .3);
 position: fixed;
@@ -385,6 +385,7 @@ z-index: 90;}
 
 .punto_articulo_azul > h1, h2, h3, h4
 {margin: 0;
+    font-size: 6vh;
     color: #fff;}
 /*-----------------------------*//*-----------------------------*/ 
 .header_index_blanco 
@@ -850,9 +851,7 @@ left: 0;}
 /*---------------------------------------*//*---------------------------------------*/
 .nav_ul li
 {padding: 1rem 0rem;
-    margin: 0;
-border-top: solid 1px #fff;
-width: 100%;
+    margin: 0;s
 height: 6vh;}
 /*---------------------------------------*//*---------------------------------------*/
 /*---------------------------------------*//*---------------------------------------*/
