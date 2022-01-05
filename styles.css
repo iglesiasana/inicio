@@ -48,9 +48,9 @@ width: 100%;
 height: 6rem;
 padding: 0;
 box-sizing: border-box;
-background-image: linear-gradient(45deg, #aa7bff, #dd00ee, #ff7bee, #aa7bff, #00ffff);
+background: rgba(150, 150, 150, .8);
 align-items: center;
-box-shadow: 0rem 1rem 1rem rgba(70, 70, 70, .3);
+box-shadow: 0rem .5rem 1rem rgba(100, 100, 100, .25);
 position: fixed;
 top: 0;
 left: 0;
@@ -385,7 +385,7 @@ z-index: 90;}
 
 .punto_articulo_azul > h1, h2, h3, h4
 {margin: 0;
-    font-size: 6vh;
+    font-size: 4vh;
     color: #fff;}
 /*-----------------------------*//*-----------------------------*/ 
 .header_index_blanco 
